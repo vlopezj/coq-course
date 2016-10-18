@@ -1,2 +1,48 @@
-# coq-course
-Coq course at Chalmers CSE
+# Coq 2016
+
+Coq course at the Chalmers CSE department, in principle for PhD students.
+
+*Disclaimer:*
+- *This course is not guaranteed to actually take place. Even if it does take place, contents and evaluation form may change.*
+- *This course is planned as a self-reading course. As such, each person is individually responsible for fulfiling the goals set by the examiner. No assistance is provided beyond what other participants are willing and able to give.*
+
+## Dates
+
++ The course will take place during LP2.
+
+## Reference material (i.e. books)
+
+(from https://ncatlab.org/nlab/show/Coq )
+
++ Benjamin Pierce’s Software Foundations is probably the most elementary introduction to Coq and functional progamming. The book is written in Coq so you can directly open the source files in CoqIDE and step through them to see what is going on and solve the exercises.
+  
+  http://www.cis.upenn.edu/~bcpierce/sf/
+
++ Adam Chlipala’s Certified Programming with Dependent Types explains more advanced Coq    techniques.
+
+  http://adam.chlipala.net/cpdt/
+
+## Exercises
+
+(from http://adam.chlipala.net/cpdt/ex/ )
+
+Exercises Written for "Certified Programming with Dependent Types":
+
++ Snapshot of exercises that were included in CPDT when I decided to stop maintaining exercises (Adam Chlipala)
+  http://adam.chlipala.net/cpdt/ex/exercises.pdf
+  
++ Homeworks from CIS 670 at Penn in Fall 2012 (Benjamin Pierce and students in the class)
+  http://www.cis.upenn.edu/~bcpierce/courses/670Fall12/
+  
+
+## Examination
+
+Full participation is required. This entails attending the meetings, doing the exercises and presenting some of them. 
+
+## Contact people
+
++ Fabian Ruch
++ Andrea Vezzossi 
++ Víctor López Juan
+
+
