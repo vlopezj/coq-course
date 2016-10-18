@@ -45,4 +45,8 @@ Full participation is required. This entails attending the meetings, doing the e
 + Andrea Vezzossi 
 + Víctor López Juan
 
+# Contributing
+
+If you want to add something to this document, pull requests are welcome.  You can also e-mail patches to <victor@lopezjuan.com> .
+
 
