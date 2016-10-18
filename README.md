@@ -17,10 +17,14 @@ Coq course at the Chalmers CSE department, in principle for PhD students.
 + Benjamin Pierce’s Software Foundations is probably the most elementary introduction to Coq and functional progamming. The book is written in Coq so you can directly open the source files in CoqIDE and step through them to see what is going on and solve the exercises.
   
   http://www.cis.upenn.edu/~bcpierce/sf/
+  
+  This book should be good for people with a CS background (and some PL on top of that).
 
 + Adam Chlipala’s Certified Programming with Dependent Types explains more advanced Coq    techniques.
 
   http://adam.chlipala.net/cpdt/
+  
+  It relies heavily on tactics, which can be an impediment if one actually cares about the proof.  
 
 ## Exercises
 
