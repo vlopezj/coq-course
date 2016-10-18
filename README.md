@@ -50,7 +50,7 @@ Full participation is required. This entails attending the meetings, doing the e
 If you want to add something to this document, feel welcome to [edit the file online][1] and send a pull request.
 You can also e-mail patches to <victor@lopezjuan.com> .
 
-[1]. https://github.com/vlopezj/coq-course-2016/edit/master/README.md
+[1]: https://github.com/vlopezj/coq-course-2016/edit/master/README.md
 
 
 
