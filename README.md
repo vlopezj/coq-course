@@ -30,15 +30,18 @@ Coq course at the Chalmers CSE department, in principle for PhD students.
 
 (from http://adam.chlipala.net/cpdt/ex/ )
 
-Exercises Written for "Certified Programming with Dependent Types":
++ Exercises Written for "Certified Programming with Dependent Types":
 
-+ Snapshot of exercises that were included in CPDT when I decided to stop maintaining exercises (Adam Chlipala)
-  http://adam.chlipala.net/cpdt/ex/exercises.pdf
+  + Snapshot of exercises that were included in CPDT when I decided to stop maintaining exercises (Adam Chlipala)
+    http://adam.chlipala.net/cpdt/ex/exercises.pdf
   
-+ Homeworks from CIS 670 at Penn in Fall 2012 (Benjamin Pierce and students in the class)
-  http://www.cis.upenn.edu/~bcpierce/courses/670Fall12/
+  + Homeworks from CIS 670 at Penn in Fall 2012 (Benjamin Pierce and students in the class)
+    http://www.cis.upenn.edu/~bcpierce/courses/670Fall12/
   
-
++ Exercises from the 2012 International Spring School on FORMALIZATION OF MATHEMATICS
+  
+  http://www-sop.inria.fr/manifestations/MapSpringSchool/program.html 
+  
 ## Examination
 
 Full participation is required. This entails attending the meetings, doing the exercises and presenting some of them. 
