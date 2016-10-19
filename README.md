@@ -3,7 +3,7 @@
 Coq course at the Chalmers CSE department, in principle for PhD students.
 
 *Disclaimer:*
-- *This course is not guaranteed to actually take place. Even if it does take place, contents and evaluation form may change.*
+- *This course is not guaranteed to take place. Times, contents and evaluation form are provisional and subject to change.*
 - *This course is planned as a self-reading course. As such, each person is individually responsible for fulfiling the goals set by the examiner. No assistance is provided beyond what other participants are willing and able to give.*
 
 ## Dates
@@ -44,6 +44,8 @@ Coq course at the Chalmers CSE department, in principle for PhD students.
   
 ## Examination
 
+Examiner: TBD
+
 Full participation is required. This entails attending the meetings, doing the exercises and presenting some of them. 
 
 ## Participants
@@ -55,7 +57,7 @@ Full participation is required. This entails attending the meetings, doing the e
 # Contributing
 
 If you want to add something to this document, feel welcome to **[edit the file online][1]** and send a pull request.
-You can also e-mail patches to <victor@lopezjuan.com> .
+You can also clone the repository locally and/or e-mail patches to <victor@lopezjuan.com> .
 
 [1]: https://github.com/vlopezj/coq-course-2016/edit/master/README.md
 
