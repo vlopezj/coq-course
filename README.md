@@ -46,10 +46,10 @@ Coq course at the Chalmers CSE department, in principle for PhD students.
 
 Full participation is required. This entails attending the meetings, doing the exercises and presenting some of them. 
 
-## Contact people
+## Participants
 
 + Fabian Ruch
-+ Andrea Vezzossi 
++ Andrea Vezzosi 
 + Víctor López Juan
 
 # Contributing
