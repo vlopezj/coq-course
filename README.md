@@ -53,6 +53,7 @@ Full participation is required. This entails attending the meetings, doing the e
 + Fabian Ruch
 + Andrea Vezzosi 
 + Víctor López Juan
++ Herbert Lange
 
 # Contributing
 
