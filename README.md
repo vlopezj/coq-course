@@ -8,7 +8,7 @@ Coq course at the Chalmers CSE department, in principle for PhD students.
 
 ## Dates
 
-+ The course will take place during LP2.
++ The course will take place during 2016 LP2.
 
 ## Reference material (i.e. books)
 
