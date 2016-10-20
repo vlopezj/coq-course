@@ -54,6 +54,7 @@ Full participation is required. This entails attending the meetings, doing the e
 + Andrea Vezzosi 
 + Víctor López Juan
 + Herbert Lange
++ Daniel Schoepe
 
 # Take part!
 
