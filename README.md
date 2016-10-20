@@ -8,7 +8,7 @@ Coq course at the Chalmers CSE department, in principle for PhD students.
 
 ## Dates
 
-+ The course will take place during 2016 LP2.
++ The course will take place during 2017 LP3.
 
 ## Reference material (i.e. books)
 
@@ -53,6 +53,7 @@ Full participation is required. This entails attending the meetings, doing the e
 + Fabian Ruch
 + Andrea Vezzosi 
 + Víctor López Juan
++ Herbert Lange
 
 # Contributing
 
