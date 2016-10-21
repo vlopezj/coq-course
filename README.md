@@ -6,11 +6,23 @@ Coq course at the Chalmers CSE department, in principle for PhD students.
 - *This course is not guaranteed to take place. Times, contents and evaluation form are provisional and subject to change.*
 - *This course is planned as a self-reading course. As such, each person is individually responsible for fulfiling the goals set by the examiner. No assistance is provided beyond what other participants are willing and able to give.*
 
+
 ## Dates
 
 + The course will take place during 2017 LP3.
 
-## Reference material (i.e. books)
+## Topics
+
+A list of possible topics to cover. Eventually we will have concrete dates, links to reference material and exercises.
+
++ Coq fundamentals
++ SSReflect
+
+## Reference material
+
+General reference material for the course.
+
+### Books
 
 (from https://ncatlab.org/nlab/show/Coq )
 
@@ -25,12 +37,21 @@ Coq course at the Chalmers CSE department, in principle for PhD students.
   http://adam.chlipala.net/cpdt/
   
   It relies heavily on tactics, which can be an impediment if one actually cares about the proof.  
+  
++ Mathematical Components (Assia Mahboubi, Enrico Tassi with contributions by Yves Bertot and Georges Gonthier)
 
-## Exercises
+  https://math-comp.github.io/mcb/book.pdf
+  
+  > This books targets two classes of public.  On one hand newcomers, even the
+  > more mathematical inclined ones,  find a soft introduction to the programming
+  > language of Coq, Gallina, and the *Ssreflect* proof language.  On the other hand
+  > accustomed Coq users find a substantial account of the formalization style that
+  > made the Mathematical Components library possible.
 
-(from http://adam.chlipala.net/cpdt/ex/ )
+### Exercises 
 
 + Exercises Written for "Certified Programming with Dependent Types":
+  (from http://adam.chlipala.net/cpdt/ex/ )
 
   + Snapshot of exercises that were included in CPDT when I decided to stop maintaining exercises (Adam Chlipala)
     http://adam.chlipala.net/cpdt/ex/exercises.pdf
@@ -66,7 +87,10 @@ Note that there are *two hashes* in the channel name.
 
 # Take part!
 
+In no particular order:
+
 + Add your name to the list of participants. Just **[edit this file online][edit]** and send a pull request!
++ Suggest topics, reference books and exercises! As above, [edit this file][edit] and pull request.
 + Join us on the IRC channel!
 + You can also e-mail <victor@lopezjuan.com> with questions, issues and patches.
 
