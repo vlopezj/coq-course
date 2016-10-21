@@ -54,7 +54,7 @@ We set up an IRC channel for discussing the course:
 
     ##coq@chalmers on freenode
 
-Note that there are two hashes in the channel name.
+Note that there are *two hashes* in the channel name.
 
 ## Participants
 
@@ -66,11 +66,11 @@ Note that there are two hashes in the channel name.
 
 # Take part!
 
-If you want to take part in the course, or add something to this document, feel welcome to **[edit this file online][1]** and send a pull request!
++ Add your name to the list of participants. Just **[edit this file online][edit]** and send a pull request!
++ Join us on the IRC channel!
++ You can also e-mail <victor@lopezjuan.com> with questions, issues and patches.
 
-You can also e-mail <victor@lopezjuan.com> with questions, issues and patches .
-
-[1]: https://github.com/vlopezj/coq-course-2016/edit/master/README.md
+[edit]: https://github.com/vlopezj/coq-course-2016/edit/master/README.md
 
 
 
