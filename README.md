@@ -68,7 +68,7 @@ Note that there are two hashes in the channel name.
 
 If you want to take part in the course, or add something to this document, feel welcome to **[edit this file online][1]** and send a pull request!
 
-You can also clone the repository locally and/or e-mail patches to <victor@lopezjuan.com> .
+You can also e-mail <victor@lopezjuan.com> with questions, issues and patches .
 
 [1]: https://github.com/vlopezj/coq-course-2016/edit/master/README.md
 
