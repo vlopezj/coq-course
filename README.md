@@ -48,6 +48,14 @@ Examiner: TBD
 
 Full participation is required. This entails attending the meetings, doing the exercises and presenting some of them. 
 
+## IRC channel
+
+We set up an IRC channel for discussing the course:
+
+    ##coq@chalmers on freenode
+
+Note that there are two hashes in the channel name.
+
 ## Participants
 
 + Fabian Ruch
