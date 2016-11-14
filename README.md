@@ -30,13 +30,17 @@ General reference material for the course.
   
   http://www.cis.upenn.edu/~bcpierce/sf/
   
-  This book should be good for people with a CS background (and some PL on top of that).
+  This book should be good for people with a CS background (and some PL on top of that). 
+  
+  SF uses Coq for the formalization of programming languages.
 
 + Adam Chlipala’s Certified Programming with Dependent Types explains more advanced Coq    techniques.
 
   http://adam.chlipala.net/cpdt/
   
   It relies heavily on tactics, which can be an impediment if one actually cares about the proof.  
+  
+  CPDT uses Coq as a programming language with a rich type system.
   
 + Mathematical Components (Assia Mahboubi, Enrico Tassi with contributions by Yves Bertot and Georges Gonthier)
 
@@ -47,6 +51,18 @@ General reference material for the course.
   > language of Coq, Gallina, and the *Ssreflect* proof language.  On the other hand
   > accustomed Coq users find a substantial account of the formalization style that
   > made the Mathematical Components library possible.
+  
+  Mathcomp focuses on practical math, more on the discrete algebra side
+  (natural and polynomial arithmetic, finite dimensional linear algebra,
+  finite group theory, representations, ... + some finite graph theory).
+  
++ Tutorials
+ 
+  - Coq tutorial @ ITP 2015 : https://coq.inria.fr/coq-itp-2015
+  - Basic Coq tutorial by Yves Bertot : https://team.inria.fr/marelle/en/coq-winter-school-2016/
+  - Advanced mathcomp tutorial (1 week) : https://team.inria.fr/marelle/en/advanced-coq-winter-school-2016/ 
+    Contains non trivial maths
+  - Short mathcomp tutorial @ ITP 2016 : https://github.com/math-comp/wiki/wiki/tutorial-itp2016
 
 ### Exercises 
 
