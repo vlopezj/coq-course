@@ -11,6 +11,10 @@ Coq course at the Chalmers CSE department, in principle for PhD students.
 
 + The course will take place during 2017 LP3.
 
+  [Course plan][plan]
+  
+[plan]: https://github.com/vlopezj/coq-course/blob/master/plan.md
+
 ## Topics
 
 A list of possible topics to cover. Eventually we will have concrete dates, links to reference material and exercises.
