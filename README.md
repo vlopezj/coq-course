@@ -20,7 +20,7 @@ A list of possible topics to cover. Eventually we will have concrete dates, link
 
 Participants are expected to be familiar with a functional language
 with a rich type system, such as Agda, Haskell or Scala. They
-should also be able to use inductions to prove properties about
+should also be able to use induction to prove properties about
 the natural numbers, or any other inductively defined set.
 
 ## Reference material
