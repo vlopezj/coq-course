@@ -30,7 +30,7 @@ A list of possible topics to cover. Eventually we will have concrete dates, link
 
 See the **[course plan][plan]** for more details.
 
-[plan]: /vlopezj/coq-course/blob/master/plan.md
+[plan]: plan.md
 
 ## Reference material
 
