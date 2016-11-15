@@ -15,13 +15,13 @@ on their own.
 
 ### Contents
 
-  - Coq as a functional language
+  - Coq as a functional language:
     - Finite types
     - Recursive types
     - Parameterized types
     - Function definitions
 
-  - Proving properties in Prop 
+  - Proving properties in Prop:
     - Logical connectives
     - Equality
     - Theorem search
@@ -50,6 +50,10 @@ on their own.
 ## Topics for future sessions
 
   - Metatheory of Coq
-    - What are the implications of an impredicative Prop universe
-    - ...
+    - What are the implications of an impredicative Prop universe?
+    - …
 
+  - Proving strong normalization for the simply-typed lambda calculus.
+
+    This could take more than one session. Hopefully Coq tactics will make
+    proving all the lemmas about substitutions easier.
