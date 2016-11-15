@@ -6,26 +6,31 @@ Coq course at the Chalmers CSE department, in principle for PhD students.
 - *This course is not guaranteed to take place. Times, contents and evaluation form are provisional and subject to change.*
 - *This course is planned as a self-reading course. As such, each person is individually responsible for fulfiling the goals set by the examiner. No assistance is provided beyond what other participants are willing and able to give.*
 
-
 ## Dates
 
-+ The course will take place during 2017 LP3.
+The course will take place during 2017 LP3.
 
-  [Course plan][plan]
-  
-[plan]: https://github.com/vlopezj/coq-course/blob/master/plan.md
+## Prerequisites
+
+Participants are expected to be familiar with a functional language
+with a rich type system, such as Agda, Haskell or Scala. They
+should also be able to use induction to prove properties about
+the natural numbers, or any other inductively defined set.
 
 ## Topics
 
 A list of possible topics to cover. Eventually we will have concrete dates, links to reference material and exercises.
 
 + Coq fundamentals
+  - Inductive types
+  - Logical relations
+  - …
++ …
 + SSReflect
 
-Participants are expected to be familiar with a functional language
-with a rich type system, such as Agda, Haskell or Scala. They
-should also be able to use induction to prove properties about
-the natural numbers, or any other inductively defined set.
+See the **[course plan][plan]** for more details.
+
+[plan]: /vlopezj/coq-course/blob/master/plan.md
 
 ## Reference material
 
