@@ -114,6 +114,7 @@ Note that there are *two hashes* in the channel name.
 + Víctor López Juan
 + Herbert Lange
 + Daniel Schoepe
++ Irene Lobo Valbuena
 
 # Take part!
 
