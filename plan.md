@@ -2,10 +2,15 @@
 Each session covers some content with the objective of achieving some goals.
 At the end of each session, we set exercises about what we covered to be
 presented in the next session. We also make changes to the plan based on
-what we have learnt, and what we have not.
+what we have learnt, and what we need to know in order to make progress
+with the exercises.
 
 Before each session, participants are expected to go through the material
 on their own.
+
+Note: SSReflect does not have a dedicated session. Interested participants
+are encouraged to approach proofs using the technique, and show the other
+participants how it works.
 
 ## Session 1
 

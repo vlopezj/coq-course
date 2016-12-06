@@ -17,20 +17,31 @@ with a rich type system, such as Agda, Haskell or Scala. They
 should also be able to use induction to prove properties about
 the natural numbers, or any other inductively defined set.
 
-## Topics
+## Course plan
 
-A list of possible topics to cover. Eventually we will have concrete dates, links to reference material and exercises.
-
-+ Coq fundamentals
-  - Inductive types
-  - Logical relations
-  - …
-+ …
-+ SSReflect
+1. The Coq IDE
+2. Coq as a functionl programming language
+3. Inductive reasoning about functional programs
+4. `Prop` vs. `Type`. Proofs in `Prop`.
+5. The SSReflect approach.
+6. Tactics and relations for reasoning about imperative programs.
+7. The LTac tactic language.
+9. Generic programing
+10. Data and Codata.
+11. A proof of normalization on the simply-typed lambda calculus using
+    logical relations.
 
 See the **[course plan][plan]** for more details.
 
 [plan]: plan.md
+
+### Additional topics
+
+A list of possible topics to cover. Eventually we will have concrete dates, links to reference material and exercises.
+
+- Classical results in arithmetic.
+
+Suggestions are welcome.
 
 ## Reference material
 
@@ -98,6 +109,11 @@ General reference material for the course.
 Examiner: TBD
 
 Full participation is required. This entails attending the meetings, doing the exercises and presenting some of them. 
+
+### Deliverables
+
+Coq files with solutions to the exercises.
+
 
 ## IRC channel
 
