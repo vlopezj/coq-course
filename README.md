@@ -20,7 +20,7 @@ the natural numbers, or any other inductively defined set.
 ## Course plan
 
 1. The Coq IDE
-2. Coq as a functionl programming language
+2. Coq as a functional programming language
 3. Inductive reasoning about functional programs
 4. `Prop` vs. `Type`. Proofs in `Prop`.
 5. The SSReflect approach.
@@ -28,7 +28,7 @@ the natural numbers, or any other inductively defined set.
 7. The LTac tactic language.
 9. Generic programing
 10. Data and Codata.
-11. A proof of normalization on the simply-typed lambda calculus using
+11. A proof of normalization of the simply-typed lambda calculus using
     logical relations.
 
 See the **[course plan][plan]** for more details.
