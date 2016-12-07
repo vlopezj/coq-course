@@ -37,9 +37,13 @@ See the **[course plan][plan]** for more details.
 
 ### Additional topics
 
-A list of possible topics to cover. Eventually we will have concrete dates, links to reference material and exercises.
+Some possible additional topics to cover.
 
 - Classical results in arithmetic.
+- Type classes.
+- Canonical structures.
+- Coercions.
+- Matthieu Sozeau's program tactics.
 
 Suggestions are welcome.
 
