@@ -110,7 +110,7 @@ participants how it works.
 
 …
 
-## Topics for future sessions
+## Topics for further sessions
 
   In no particular order
 
@@ -124,6 +124,10 @@ participants how it works.
 
       http://adam.chlipala.net/cpdt/cpdt.pdf#chapter.14
 
+      [Nisse](http://www.cse.chalmers.se/~nad/) recommended going deep into Ltac with Chlipala's book if we have the time. 
+      (Which we should, getting the proof of normalization of the simply-typed
+      lambda calculus using logical relations should be easy).
+            
   - Small step semantics.
 
     http://www.cis.upenn.edu/%7Ebcpierce/sf/current/Smallstep.html
