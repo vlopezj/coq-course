@@ -135,6 +135,7 @@ Note that there are *two hashes* in the channel name.
 + Herbert Lange
 + Daniel Schoepe
 + Irene Lobo Valbuena
++ YuTing Chen (jeff)
 
 # Take part!
 
