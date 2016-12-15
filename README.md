@@ -53,27 +53,21 @@ General reference material for the course.
 
 ### Books
 
-(from https://ncatlab.org/nlab/show/Coq )
+From [Coq at nLab](https://ncatlab.org/nlab/show/Coq):
 
-+ Benjamin Pierce’s Software Foundations is probably the most elementary introduction to Coq and functional progamming. The book is written in Coq so you can directly open the source files in CoqIDE and step through them to see what is going on and solve the exercises.
-
-  http://www.cis.upenn.edu/~bcpierce/sf/
++ Benjamin Pierce’s [Software Foundations](http://www.cis.upenn.edu/~bcpierce/sf) is probably the most elementary introduction to Coq and functional progamming. The book is written in Coq so you can directly open the source files in CoqIDE and step through them to see what is going on and solve the exercises.
 
   This book should be good for people with a CS background (and some PL on top of that).
 
   SF uses Coq for the formalization of programming languages.
 
-+ Adam Chlipala’s Certified Programming with Dependent Types explains more advanced Coq    techniques.
-
-  http://adam.chlipala.net/cpdt/
++ Adam Chlipala’s [Certified Programming with Dependent Types](http://adam.chlipala.net/cpdt/) explains more advanced Coq techniques.
 
   It relies heavily on tactics, which can be an impediment if one actually cares about the proof.
 
   CPDT uses Coq as a programming language with a rich type system.
 
-+ Mathematical Components (Assia Mahboubi, Enrico Tassi with contributions by Yves Bertot and Georges Gonthier)
-
-  https://math-comp.github.io/mcb/book.pdf
++ [Mathematical Components](https://math-comp.github.io/mcb/book.pdf) by Assia Mahboubi, Enrico Tassi with contributions by Yves Bertot and Georges Gonthier:
 
   > This books targets two classes of public.  On one hand newcomers, even the
   > more mathematical inclined ones,  find a soft introduction to the programming
@@ -87,26 +81,20 @@ General reference material for the course.
 
 + Tutorials
 
-  - Coq tutorial @ ITP 2015 : https://coq.inria.fr/coq-itp-2015
-  - Basic Coq tutorial by Yves Bertot : https://team.inria.fr/marelle/en/coq-winter-school-2016/
-  - Advanced mathcomp tutorial (1 week) : https://team.inria.fr/marelle/en/advanced-coq-winter-school-2016/
-    Contains non trivial maths
-  - Short mathcomp tutorial @ ITP 2016 : https://github.com/math-comp/wiki/wiki/tutorial-itp2016
+  - [Coq tutorial @ ITP 2015](https://coq.inria.fr/coq-itp-2015)
+  - [Basic Coq tutorial by Yves Bertot](https://team.inria.fr/marelle/en/coq-winter-school-2016/)
+  - [Advanced mathcomp tutorial (1 week)](https://team.inria.fr/marelle/en/advanced-coq-winter-school-2016/) -- contains non-trivial maths
+  - [Short mathcomp tutorial @ ITP 2016](https://github.com/math-comp/wiki/wiki/tutorial-itp2016)
 
 ### Exercises
 
-+ Exercises Written for "Certified Programming with Dependent Types":
-  (from http://adam.chlipala.net/cpdt/ex/ )
++ [Exercises written for Certified Programming with Dependent Types](http://adam.chlipala.net/cpdt/ex/):
 
-  + Snapshot of exercises that were included in CPDT when I decided to stop maintaining exercises (Adam Chlipala)
-    http://adam.chlipala.net/cpdt/ex/exercises.pdf
+  + [Snapshot of exercises](http://adam.chlipala.net/cpdt/ex/exercises.pdf) that were included in CPDT when I decided to stop maintaining exercises -- Adam Chlipala
 
-  + Homeworks from CIS 670 at Penn in Fall 2012 (Benjamin Pierce and students in the class)
-    http://www.cis.upenn.edu/~bcpierce/courses/670Fall12/
+  + [Homeworks from CIS 670 at Penn in Fall 2012](http://www.cis.upenn.edu/~bcpierce/courses/670Fall12/) -- Benjamin Pierce and students in the class
 
-+ Exercises from the 2012 International Spring School on FORMALIZATION OF MATHEMATICS
-
-  http://www-sop.inria.fr/manifestations/MapSpringSchool/program.html
++ [Exercises from the 2012 International Spring School on FORMALIZATION OF MATHEMATICS](http://www-sop.inria.fr/manifestations/MapSpringSchool/program.html)
 
 ## Examination
 
@@ -117,7 +105,6 @@ Full participation is required. This entails attending the meetings, doing the e
 ### Deliverables
 
 Coq files with solutions to the exercises.
-
 
 ## IRC channel
 
