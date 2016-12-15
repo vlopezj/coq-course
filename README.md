@@ -79,12 +79,17 @@ From [Coq at nLab](https://ncatlab.org/nlab/show/Coq):
   (natural and polynomial arithmetic, finite dimensional linear algebra,
   finite group theory, representations, ... + some finite graph theory).
 
-+ Tutorials
+### Tutorials
 
   - [Coq tutorial @ ITP 2015](https://coq.inria.fr/coq-itp-2015)
   - [Basic Coq tutorial by Yves Bertot](https://team.inria.fr/marelle/en/coq-winter-school-2016/)
   - [Advanced mathcomp tutorial (1 week)](https://team.inria.fr/marelle/en/advanced-coq-winter-school-2016/) -- contains non-trivial maths
   - [Short mathcomp tutorial @ ITP 2016](https://github.com/math-comp/wiki/wiki/tutorial-itp2016)
+  - Coq is covered in some Oregon Programming Languages Summer School iterations, e.g. [Chlipala's sessions from 2015](https://www.cs.uoregon.edu/research/summerschool/summer15/curriculum.html) (video format)
+
+### Fun links
+
+  - [Haskell for Coq programmers](http://blog.ezyang.com/2014/03/haskell-for-coq-programmers/)
 
 ### Exercises
 
@@ -95,6 +100,8 @@ From [Coq at nLab](https://ncatlab.org/nlab/show/Coq):
   + [Homeworks from CIS 670 at Penn in Fall 2012](http://www.cis.upenn.edu/~bcpierce/courses/670Fall12/) -- Benjamin Pierce and students in the class
 
 + [Exercises from the 2012 International Spring School on FORMALIZATION OF MATHEMATICS](http://www-sop.inria.fr/manifestations/MapSpringSchool/program.html)
+
++ There are quite many exercises in Pierce's SF book.
 
 ## Examination
 
