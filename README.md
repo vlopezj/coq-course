@@ -131,6 +131,7 @@ Note that there are *two hashes* in the channel name.
 + Irene Lobo Valbuena
 + YuTing Chen (jeff)
 + Andreas Lööw
++ Simon Robillard
 
 # Take part!
 
