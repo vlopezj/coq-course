@@ -105,6 +105,8 @@ From [Coq at nLab](https://ncatlab.org/nlab/show/Coq):
 
 + There are quite many exercises in Pierce's SF book.
 
++ [Modelling and verifying algorithms in Coq: an introduction](http://www.di.ens.fr/~zappa/teaching/coq/ecole11/), yet another introductory tutorial, has some exercises.
+
 ## Examination
 
 Examiner: TBD
