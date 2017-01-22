@@ -44,6 +44,8 @@ Some possible additional topics to cover.
 - Canonical structures.
 - Coercions.
 - Matthieu Sozeau's program tactics.
+- Theoretical foundations (e.g., something about CIC).
+- Program extraction.
 
 Suggestions are welcome.
 
