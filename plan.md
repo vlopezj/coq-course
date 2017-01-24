@@ -37,8 +37,8 @@ If we have the time and the inclination, we will get started with the Coq IDE an
   - Get the hang of the IDE.
   - Prove simple properties about functional programs:
     - Commutativity of addition
-    - Transitivity of append for lists
-    - Transitivity of append for vectors
+    - Associativity of append for lists
+    - Associativity of append for vectors
       (i.e. lists of a certain length)
 
 ### Contents
