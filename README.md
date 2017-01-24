@@ -111,7 +111,7 @@ From [Coq at nLab](https://ncatlab.org/nlab/show/Coq):
 
 ## Examination
 
-Examiner: TBD
+Examiner: [Thierry Coquand](http://www.cse.chalmers.se/~coquand/)
 
 Full participation is required. This entails attending the meetings, doing the exercises and presenting some of them.
 
