@@ -10,7 +10,7 @@ Coq course at the Chalmers CSE department, in principle for PhD students.
 
 The course will take place during 2017 LP3.
 
-*Kick-off meeting: Thu 2nd Feb, 3:15pm-5pm, room 6128*
+- Kick-off meeting: Thu 2nd Feb, 3:15pm-5pm, room 6128. [Plan](plan.md), [Notes](notes/session01.md)
 
 ## Prerequisites
 
