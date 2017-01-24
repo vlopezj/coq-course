@@ -30,7 +30,8 @@ If we have the time and the inclination, we will get started with the Coq IDE an
 
 ### Goals
 
-- Plan the course.
+- **Plan the course.** See the [session notes](notes/session01.md) for questions to address.
+
 - If there's time…
 
   - Get the hang of the IDE.
