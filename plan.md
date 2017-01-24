@@ -12,16 +12,29 @@ Note: SSReflect does not have a dedicated session. Interested participants
 are encouraged to approach proofs using the technique, and show the other
 participants how it works.
 
-## Session 1
+## Session 1 — Kickoff meeting
 
-**Date:** TBD
-**Place:** TBD
+**Date:** Thu 2nd Feb 2017, 3:15pm — 5pm
+**Place:** Room 6128, EDIT Building, Johanneberg
+
+We will discuss what each of us wants to get out of the course, and update the course plan accordingly.
+If we have the time and the inclination, we will get started with the Coq IDE and do some basic examples.
+
+### Before the session
+
+- Look at the [session notes](notes/session01.md). 
+  Add questions you want to discuss, or comment on the existing ones. 
+  We will discuss these questions during the meeting.
+  
+- Install Coq IDE in your machine. Take a look at the [tutorial](https://coq.inria.fr/distrib/V8.6/files/Tutorial.pdf).
 
 ### Goals
 
-  Getting the hang of the IDE.
+- Plan the course.
+- If there's time…
 
-  Proving simple properties about functional programs:
+  - Get the hang of the IDE.
+  - Prove simple properties about functional programs:
 
    - Commutativity of addition
    - Transitivity of append for lists
@@ -46,6 +59,9 @@ participants how it works.
 
 ### Material
 
+   Tutorial: 
+   https://coq.inria.fr/distrib/V8.6/files/Tutorial.pdf
+   
    Parts 1, 2 and 3 of
    https://team.inria.fr/marelle/en/coq-winter-school-2016/
 
