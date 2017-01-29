@@ -4,7 +4,7 @@
 
   - Spring term ends on Sunday June 4, that is in 17 weeks
 
-- *Where should we meet? Who manages the booking?*
+- *Where should we meet? Who manages the booking? How long should each booking be?*
 
 - *Principal way of communicating to everyone in between sessions?*
 
