@@ -138,6 +138,7 @@ Note that there are *two hashes* in the channel name.
 + YuTing Chen (jeff)
 + Andreas Lööw
 + Simon Robillard
++ Marco Vassena
 
 # Take part!
 
