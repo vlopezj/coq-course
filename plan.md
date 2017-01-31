@@ -62,6 +62,9 @@ If we have the time and the inclination, we will get started with the Coq IDE an
    Tutorial: 
    https://coq.inria.fr/distrib/V8.6/files/Tutorial.pdf
    
+   Cheat sheet:
+   http://andrej.com/coq/cheatsheet.pdf
+   
    Parts 1, 2 and 3 of
    https://team.inria.fr/marelle/en/coq-winter-school-2016/
 
