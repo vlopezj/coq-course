@@ -73,7 +73,7 @@ If we have the time and the inclination, we will get started with the Coq IDE an
 
 ### Exercises
 
-  - Exercises from parts 1, 2 and 3 of the material.
+  - Exercises from parts [1](exercises/ex1.v), [2](exercises/ex2.v) and [3](exercises/ex3.v) of the material.
 
 ## Session 2
 
