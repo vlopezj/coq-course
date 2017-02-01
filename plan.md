@@ -22,10 +22,10 @@ If we have the time and the inclination, we will get started with the Coq IDE an
 
 ### Before the session
 
-- Look at the [session notes](notes/session01.md). 
-  Add questions you want to discuss, or comment on the existing ones. 
+- Look at the [session notes](notes/session01.md).
+  Add questions you want to discuss, or comment on the existing ones.
   We will discuss these questions during the meeting.
-  
+
 - Install Coq IDE in your machine. Take a look at the [tutorial](https://coq.inria.fr/distrib/V8.6/files/Tutorial.pdf).
 
 ### Goals
@@ -59,12 +59,15 @@ If we have the time and the inclination, we will get started with the Coq IDE an
 
 ### Material
 
-   Tutorial: 
+   Tutorial:
    https://coq.inria.fr/distrib/V8.6/files/Tutorial.pdf
-   
+
    Cheat sheet:
    http://andrej.com/coq/cheatsheet.pdf
-   
+
+   Survival kit:
+   https://coq.inria.fr/files/coq-itp-2015/CoqSurvivalKit.pdf
+
    Parts 1, 2 and 3 of
    https://team.inria.fr/marelle/en/coq-winter-school-2016/
 
@@ -143,10 +146,10 @@ If we have the time and the inclination, we will get started with the Coq IDE an
 
       http://adam.chlipala.net/cpdt/cpdt.pdf#chapter.14
 
-      [Nisse](http://www.cse.chalmers.se/~nad/) recommended going deep into Ltac with Chlipala's book if we have the time. 
+      [Nisse](http://www.cse.chalmers.se/~nad/) recommended going deep into Ltac with Chlipala's book if we have the time.
       (Which we should, getting the proof of normalization of the simply-typed
       lambda calculus using logical relations should be easy).
-            
+
   - Small step semantics.
 
     http://www.cis.upenn.edu/%7Ebcpierce/sf/current/Smallstep.html
