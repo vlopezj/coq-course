@@ -14,4 +14,4 @@
 
 - *How should participation be evaluated?*
 
-- …
+- *How many credits do we get for the course?*
