@@ -1,3 +1,5 @@
+Section One.
+
 (* Source: http://www-sop.inria.fr/members/Enrico.Tassi/coqws15/coq-master1-1-exercises.v *)
 
 Require Import Bool Arith List.
