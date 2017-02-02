@@ -127,6 +127,12 @@ We set up an IRC channel for discussing the course:
 
 Note that there are *two hashes* in the channel name.
 
+If you don't want to run your own server for running a client continuously, you
+can use [riot's](http://riot.im) IRC bridge:
+
+- Create a [riot](http://riot.im/) account
+- Join the [channel](https://riot.im/app/#/room/#freenode_##coq@chalmers:matrix.org)
+
 ## Participants
 
 + Fabian Ruch
