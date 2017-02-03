@@ -6,7 +6,5 @@
 2. Discuss exercises from Session 1: 
    Exercises from parts [1](/exercises/ex1.v), [2](/exercises/ex2.v) and [3](/exercises/ex3.v) of the material.
 
-3. Topic proposals for the coming sessions (Marco, everyone)
-
-   - [ ] …
+3. Discuss [syllabus](/syllabus.md) (Marco, everyone)
     
