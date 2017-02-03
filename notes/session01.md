@@ -46,4 +46,4 @@
   
  - Prepare presentation on IndProp (Victor)
  - Do Exercises from parts [1](/exercises/ex1.v), [2](/exercises/ex2.v) and [3](/exercises/ex3.v) of the material (everyone).
- - Elaborate a list of topics to choose from (Marco, everyone). Write them down in [/notes/session02.md](/notes/session02.md)
+ - Elaborate a list of topics to choose from (Marco, everyone). Write them down in the  [syllabus](/syllabus.md)
