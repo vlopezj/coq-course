@@ -20,7 +20,7 @@ Tentative Plan with 2 topics per session.
 |  13/03  | Hoare: Hoare Logic               |             |
 |         | Small-step Operational Semantics |             |
 |  27/03  | Types: Type Systems              |             |
-|         | Sub: Subtyping                   |             |
+|         | Sub: Subtyping                   | Marco       |
 |  11/03  | Typing Mutable References        |             |
 
 
