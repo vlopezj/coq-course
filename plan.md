@@ -8,7 +8,7 @@ with the exercises.
 Before each session, participants are expected to go through the material
 on their own.
 
-## Session 1 — Kickoff meeting
+## [Session 1](notes/session01.md) — Kickoff meeting
 
 **Date:** Thu 2nd Feb 2017, 3:15pm — 5pm
 **Place:** Room 6128, EDIT Building, Johanneberg
@@ -72,7 +72,7 @@ If we have the time and the inclination, we will get started with the Coq IDE/Pr
 
   - Exercises from parts [1](exercises/ex1.v), [2](exercises/ex2.v) and [3](exercises/ex3.v) of the material.
 
-## Session 2
+## [Session 2](notes/session02.md)
 
 ### Goals
 
