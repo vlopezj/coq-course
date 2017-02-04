@@ -15,9 +15,7 @@ The course will take place during 2017 LP3.
 
 ### Deliverables
 
-Coq files with solutions to the exercises.
-
-Deliverables are uploaded to a separate, [**private repository**](https://framagit.org/chalmers-coq/solutions). 
+Coq files with solutions to the exercises. Deliverables are uploaded to a separate, [**private repository**](https://framagit.org/chalmers-coq/solutions). 
 
 ## Prerequisites
 
@@ -152,3 +150,5 @@ can use [riot's](http://riot.im) IRC bridge:
 + Andreas Lööw
 + Simon Robillard
 + Marco Vassena
+
+[**Edit this file**](https://github.com/vlopezj/coq-course/edit/master/README.md)
