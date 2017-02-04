@@ -113,11 +113,10 @@ From [Coq at nLab](https://ncatlab.org/nlab/show/Coq):
 ## Examination
 
 Examiner: [Thierry Coquand](http://www.cse.chalmers.se/~coquand/)
-Credits¹: 7,5
+
+Credits: 7.5, but the final decision about how many credits the course gives rests with each participant’s respective examiner.
 
 Full participation is required. This entails attending the meetings, doing the exercises and presenting some of them.
-
-¹. The final decision about how many credits the course gives rests with each participant’s respective examiner.
 
 ### Deliverables
 
