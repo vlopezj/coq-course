@@ -148,15 +148,3 @@ can use [riot's](http://riot.im) IRC bridge:
 + Andreas Lööw
 + Simon Robillard
 + Marco Vassena
-
-# Take part!
-
-In no particular order:
-
-+ Add your name to the list of participants. Just **[edit this file online][edit]** and send a pull request!
-+ Suggest topics, reference books and exercises! As above, [edit this file][edit] and pull request.
-+ Join us on the [IRC channel][irc]!
-+ You can also e-mail <victor@lopezjuan.com> with questions, issues and patches.
-
-[edit]: https://github.com/vlopezj/coq-course-2016/edit/master/README.md
-[irc]: http://webchat.freenode.net?channels=%23%23coq@chalmers&uio=d4
