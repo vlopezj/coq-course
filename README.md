@@ -13,6 +13,12 @@ The course will take place during 2017 LP3.
 - Kick-off meeting: Thu 2nd Feb, 3:15pm-5pm, room 6128. [Plan](plan.md), [Notes](notes/session01.md)
 - Session 2: Thu 16th Feb, 3:15-5pm, room 6128. [Agenda](/notes/session02.md)
 
+### Deliverables
+
+Coq files with solutions to the exercises.
+
+Deliverables are uploaded to a separate, [**private repository**](https://framagit.org/chalmers-coq/solutions). 
+
 ## Prerequisites
 
 Participants are expected to be familiar with a functional language
@@ -118,9 +124,7 @@ Credits: 7.5, but the final decision about how many credits the course gives res
 
 Full participation is required. This entails attending the meetings, doing the exercises and presenting some of them.
 
-### Deliverables
 
-Coq files with solutions to the exercises.
 
 ## IRC channel
 
