@@ -8,17 +8,13 @@ with the exercises.
 Before each session, participants are expected to go through the material
 on their own.
 
-Note: SSReflect does not have a dedicated session. Interested participants
-are encouraged to approach proofs using the technique, and show the other
-participants how it works.
-
 ## Session 1 — Kickoff meeting
 
 **Date:** Thu 2nd Feb 2017, 3:15pm — 5pm
 **Place:** Room 6128, EDIT Building, Johanneberg
 
 We will discuss what each of us wants to get out of the course, and update the course plan accordingly.
-If we have the time and the inclination, we will get started with the Coq IDE and do some basic examples.
+If we have the time and the inclination, we will get started with the Coq IDE/Proof General and do some basic examples.
 
 ### Before the session
 
@@ -26,7 +22,7 @@ If we have the time and the inclination, we will get started with the Coq IDE an
   Add questions you want to discuss, or comment on the existing ones.
   We will discuss these questions during the meeting.
 
-- Install Coq IDE in your machine. Take a look at the [tutorial](https://coq.inria.fr/distrib/V8.6/files/Tutorial.pdf).
+- Install Coq IDE/Proof General in your machine. Take a look at the [tutorial](https://coq.inria.fr/distrib/V8.6/files/Tutorial.pdf).
 
 ### Goals
 
@@ -38,8 +34,7 @@ If we have the time and the inclination, we will get started with the Coq IDE an
   - Prove simple properties about functional programs:
     - Commutativity of addition
     - Associativity of append for lists
-    - Associativity of append for vectors
-      (i.e. lists of a certain length)
+    - ~~Associativity of append for vectors (i.e. lists of a certain length)~~
 
 ### Contents
 
@@ -71,6 +66,8 @@ If we have the time and the inclination, we will get started with the Coq IDE an
    Parts 1, 2 and 3 of
    https://team.inria.fr/marelle/en/coq-winter-school-2016/
 
+   The tutorial, part 1, 2 and 3, and SF up to (and including) Logic minus Poly largely overlaps.
+
 ### Exercises
 
   - Exercises from parts [1](exercises/ex1.v), [2](exercises/ex2.v) and [3](exercises/ex3.v) of the material.
@@ -91,8 +88,12 @@ If we have the time and the inclination, we will get started with the Coq IDE an
 
 ### Material
 
- Parts 4 and 5 of
- https://team.inria.fr/marelle/en/coq-winter-school-2016/
+ Parts 4 and 5 of https://team.inria.fr/marelle/en/coq-winter-school-2016/.
+
+ Part 4 and 5 above cover material not covered in SF (I think --
+ Andreas). E.g., part 4 discusses binary encoding of numbers and
+ negative numbers (rather than only Peano numbers as done in SF
+ (although, binary numbers are mentioned in an exercise in Basics)).
 
 ### Exercises
 
@@ -103,40 +104,76 @@ If we have the time and the inclination, we will get started with the Coq IDE an
 ### Goals
 
  - Define and prove properties about relations using induction in Prop.
+ - Something more, e.g. equality?
 
 ### Material
 
- - http://www.cis.upenn.edu/~bcpierce/sf/current/IndPrinciples.html#lab273
- - http://www.cis.upenn.edu/~bcpierce/sf/current/Rel.html
+ - IndProp (+ ProofObjects) + IndPrinciples + Rel from SF
+
+ - Equality in Coq
+
+   For the first meeting we said that one could prove "associativity
+   of append for vectors (i.e. lists of a certain length)" as a
+   warm-up exercise. This is, however, much more difficult than the
+   analogous theorem for lists because we get different types on the
+   two sides of the equality. (Daniel managed to prove this using JMeq.)
+
+   - http://adam.chlipala.net/cpdt/html/Equality.html
+   - http://sf.snu.ac.kr/gil.hur/publications/heq.pdf
+   - http://web.mit.edu/jgross/Public/2014-splash/equality/exercises.v
 
 ### Exercises
 
- - http://www.cis.upenn.edu/~bcpierce/sf/current/Rel.html
+ - TBD
 
 ## Session 4
 
 ### Goals
 
-  - Use tactics and relations to reason about sets of (imperative) programs,
+  - Use tactics and relations to reason about sets of imperative programs,
     and sets of expressions.
+  - Program logics for imperative programs (Hoare logic)
 
 ### Material
 
-    http://www.cis.upenn.edu/~bcpierce/sf/current/Imp.html
+  - Maps (needed for the rest) + Imp + Equiv + Hoare + Hoare2 from SF (this is a lot of material)
+  - https://github.com/achlipala/frap?
 
 ### Exercises
 
-    http://www.cis.upenn.edu/~bcpierce/sf/current/Imp.html#lab339
+  - TBD
 
-## Session …
+## Session 5
 
-…
+Ideas: Either material from session 4 if it's too much for one session. Or some parts of the lambda and type stuff from SF.
 
-## Topics for further sessions
+Some more ideas:
 
-  In no particular order
+  - Small step semantics
 
-  - Writing tactics.
+    http://www.cis.upenn.edu/%7Ebcpierce/sf/current/Smallstep.html
+
+  - Prove strong normalization for the simply-typed lambda calculus
+    using logical relations
+
+    This could take more than one session. Hopefully Coq tactics will make
+    proving all the lemmas about substitutions easier.
+
+    http://www.cis.upenn.edu/~bcpierce/sf/current/Norm.html
+
+## Session 6
+
+SSReflect? Proof automation (e.g. LTac + material from CPDT)?
+
+  - Proof by reflection and SSReflect
+
+    - http://adam.chlipala.net/cpdt/cpdt.pdf#chapter.15
+    - https://team.inria.fr/marelle/en/advanced-coq-winter-school-2016/ -- difficult to follow (according to Andreas)
+    - https://github.com/math-comp/wiki/wiki/tutorial-itp2016
+    - https://math-comp.github.io/mcb/
+    - http://ilyasergey.net/pnp/
+
+  - Writing tactics
 
     - Tactic Notation (easy)
 
@@ -150,44 +187,23 @@ If we have the time and the inclination, we will get started with the Coq IDE an
       (Which we should, getting the proof of normalization of the simply-typed
       lambda calculus using logical relations should be easy).
 
-  - Small step semantics.
+## Session …
 
-    http://www.cis.upenn.edu/%7Ebcpierce/sf/current/Smallstep.html
+Material from "Additional topics" (see README.md)? More from CPDT?
 
-  - Prove strong normalization for the simply-typed lambda calculus
-    using logical relations.
+In no particular order:
 
-    This could take more than one session. Hopefully Coq tactics will make
-    proving all the lemmas about substitutions easier.
+  - Infinite data and coinduction
 
-    http://www.cis.upenn.edu/~bcpierce/sf/current/Norm.html
+    http://adam.chlipala.net/cpdt/cpdt.pdf#chapter.5
 
   - Generic programming
 
     http://adam.chlipala.net/cpdt/cpdt.pdf#chapter.11
 
-  - Proof by reflection
-
-    http://adam.chlipala.net/cpdt/cpdt.pdf#chapter.15
-
-
   - Proofs about arithmetic
 
-    - Integers, fibonacci numbers, division …
+    References needed! Classical results:
 
-      Part 5 of https://team.inria.fr/marelle/en/coq-winter-school-2016/
-
-    - The ring and omega tactics.
-
-      http://www.cis.upenn.edu/%7Ebcpierce/sf/current/UseAuto.html#lab915
-
-    - Classical results:
-
-      - Irrationality of the square root of two.
-      - Infinitude of primes.
-
-      [reference needed]
-
-  - Infinite data
-
-    http://adam.chlipala.net/cpdt/cpdt.pdf#chapter.5
+    - Irrationality of the square root of two.
+    - Infinitude of primes.
