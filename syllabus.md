@@ -17,11 +17,11 @@ Tentative Plan with 2 topics per session.
 |         | Properties of Relations          |             |
 |  30/03  | Imp: Simple Imperative Programs  |             |
 |         | Evaluation Function for Imp      |             |
-|  13/03  | Hoare: Hoare Logic               |             |
+|  13/04  | Hoare: Hoare Logic               |             |
 |         | Small-step Operational Semantics |             |
-|  27/03  | Types: Type Systems              |             |
+|  27/04  | Types: Type Systems              |             |
 |         | Sub: Subtyping                   | Marco       |
-|  11/03  | Typing Mutable References        |             |
+|  11/05  | Typing Mutable References        |             |
 
 
 
