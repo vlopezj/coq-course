@@ -15,7 +15,7 @@ The course will take place during 2017 LP3.
 
 ### Deliverables
 
-Coq files with solutions to the exercises. Deliverables are uploaded to a separate, [**private repository**](https://framagit.org/chalmers-coq/solutions). 
+Coq files with solutions to the exercises. Deliverables are uploaded to a separate, [**private repository**](https://github.com/dschoepe/coq-course-exercises). 
 
 ## Prerequisites
 
