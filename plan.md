@@ -207,3 +207,16 @@ In no particular order:
 
     - Irrationality of the square root of two.
     - Infinitude of primes.
+    
+  - Program extraction
+  
+    - Covered in one chapter in SF (not sure in what depth)
+    - Examples with simple programs?
+    - Efficiency of extracted programs?
+    - [Coq.io](http://coq.io)
+    - Any formal guarantees on extracted programs or are they simply pretty-printed?
+    
+  - Large proof projects
+  
+    - CompCert
+    - [Formalized mathematics](https://coq.inria.fr/cocorico/List%20of%20Coq%20Math%20Projects) (four color theorem often mentioned)
