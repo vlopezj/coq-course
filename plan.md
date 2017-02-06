@@ -189,11 +189,11 @@ SSReflect? Proof automation (e.g. LTac + material from CPDT)?
 
 ## Session …
 
-Material from "Additional topics" (see README.md)? More from CPDT?
+Suggestions are welcome.
 
 In no particular order:
 
-  - Infinite data and coinduction
+  - Infinite data, coinduction, codata and data
 
     http://adam.chlipala.net/cpdt/cpdt.pdf#chapter.5
 
@@ -220,3 +220,21 @@ In no particular order:
   
     - CompCert
     - [Formalized mathematics](https://coq.inria.fr/cocorico/List%20of%20Coq%20Math%20Projects) (four color theorem often mentioned)
+
+  - Theoretical foundations
+
+    - Something about CIC
+    - `Set` vs. `Prop` vs. `Type`
+    - Proof irrelevance, impredicativity, ...
+
+  - More from CPDT?
+
+  - Type classes.
+
+    - Mooooooonads?
+
+  - Canonical structures.
+
+  - Coercions.
+
+  - Matthieu Sozeau's program tactics.

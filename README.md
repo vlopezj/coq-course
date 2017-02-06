@@ -26,35 +26,7 @@ the natural numbers, or any other inductively defined set.
 
 ## Course plan
 
-1. The Coq IDE.
-2. Coq as a functional programming language.
-3. Inductive reasoning about functional programs.
-4. `Prop` vs. `Type`. Proofs in `Prop`.
-5. The SSReflect approach.
-6. Tactics and relations for reasoning about imperative programs.
-7. The LTac tactic language.
-9. Generic programing.
-10. Data and codata.
-11. A proof of normalization of the simply-typed lambda calculus using
-    logical relations.
-
-See the **[course plan][plan]** for more details.
-
-[plan]: plan.md
-
-### Additional topics
-
-Some possible additional topics to cover.
-
-- Classical results in arithmetic.
-- Type classes.
-- Canonical structures.
-- Coercions.
-- Matthieu Sozeau's program tactics.
-- Theoretical foundations (e.g., something about CIC).
-- Program extraction.
-
-Suggestions are welcome.
+See **[syllabus.md](syllabus.md)** and **[plan.md](plan.md)** for more details.
 
 ## Reference material
 
