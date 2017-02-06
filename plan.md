@@ -210,7 +210,7 @@ In no particular order:
     
   - Program extraction
   
-    - Covered in one chapter in SF (not sure in what depth)
+    - Covered in one chapter in SF, but more info in Extraction in VFA
     - Examples with simple programs?
     - Efficiency of extracted programs?
     - [Coq.io](http://coq.io)
