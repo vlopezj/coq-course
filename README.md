@@ -87,6 +87,8 @@ From [Coq at nLab](https://ncatlab.org/nlab/show/Coq):
   Mathcomp focuses on practical math, more on the discrete algebra side
   (natural and polynomial arithmetic, finite dimensional linear algebra,
   finite group theory, representations, ... + some finite graph theory).
+  
++ [Verified Functional Algorithms](https://www.cs.princeton.edu/~appel/vfa/) by Andrew W. Appel. "Volume 3 of the Software Foundations series".
 
 ### Tutorials
 
