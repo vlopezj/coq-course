@@ -15,7 +15,7 @@ The course will take place during 2017 LP3.
 
 ### Deliverables
 
-Coq files with solutions to the exercises. Deliverables are uploaded to a separate, [**private repository**](https://github.com/dschoepe/coq-course-exercises). 
+Coq files with solutions to the exercises. Deliverables are uploaded to a separate, [**private repository**](https://github.com/dschoepe/coq-course-exercises).
 
 ## Prerequisites
 
@@ -87,7 +87,7 @@ From [Coq at nLab](https://ncatlab.org/nlab/show/Coq):
   Mathcomp focuses on practical math, more on the discrete algebra side
   (natural and polynomial arithmetic, finite dimensional linear algebra,
   finite group theory, representations, ... + some finite graph theory).
-  
+
 + [Verified Functional Algorithms](https://www.cs.princeton.edu/~appel/vfa/) by Andrew W. Appel. "Volume 3 of the Software Foundations series".
 
 ### Tutorials
