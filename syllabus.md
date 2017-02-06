@@ -22,6 +22,7 @@ Tentative Plan with 2 topics per session.
 |  27/04  | Types: Type Systems              |             |
 |         | Sub: Subtyping                   | Marco       |
 |  11/05  | Typing Mutable References        |             |
+|  ??/05  | Proof by Reflection / ssreflect  | Daniel      |
 
 
 
