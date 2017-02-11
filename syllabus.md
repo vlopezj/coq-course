@@ -11,15 +11,14 @@ Tentative Plan with 2 topics per session.
     We can agree on a date and make space for your presentation during the next session. 
     
   - You can find many suggestions for topics in the [course plan](/plan.md).
-* I have planned  a more basic session on 16/02, since not all the participants have experience with proof assistants.
 
 | *Date*  | *Topic*                          | *Presenter* |
-| ------- |:--------------------------------:| -----------:|
+| ------: |:--------------------------------:| :-----------|
 |  2/02   | Organization                     |             |
-|  16/02  | Tactics: More Basic Tactics      |             |
-|         | Logic in Coq                     |             |
-|   2/03  | Inductively Defined Propositions | Victor      |
-|         | Total and Partial Maps           |             |
+|  16/02  | Inductively Defined Propositions | Victor      |
+|         | Exercises 1, 2, 3                |             |
+|  2/03   |                                  |             |
+|         |                                  |             |
 |  16/03  | Induction Principles             |             |
 |         | Properties of Relations          |             |
 |  30/03  | Imp: Simple Imperative Programs  |             |
