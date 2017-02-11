@@ -18,15 +18,15 @@ Tentative Plan with 2 topics per session.
 |  16/02  | Inductively Defined Propositions | Victor      |
 |         | Exercises 1, 2, 3                |             |
 |  2/03   |                                  |             |
-|         |                                  |             |
+|         |                                  |             |
 |  16/03  | Induction Principles             |             |
-|         | Properties of Relations          |             |
+|         | Properties of Relations          |             |
 |  30/03  | Imp: Simple Imperative Programs  |             |
-|         | Evaluation Function for Imp      |             |
+|         | Evaluation Function for Imp      |             |
 |  13/04  | Hoare: Hoare Logic               |             |
-|         | Small-step Operational Semantics |             |
+|         | Small-step Operational Semantics |             |
 |  27/04  | Types: Type Systems              |             |
-|         | Sub: Subtyping                   | Marco       |
+|         | Sub: Subtyping                   | Marco       |
 |  11/05  | Typing Mutable References        |             |
 |  ??/05  | Proof by Reflection / ssreflect  | Daniel      |
 
