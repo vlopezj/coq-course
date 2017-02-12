@@ -203,10 +203,10 @@ In no particular order:
 
   - Proofs about arithmetic
 
-    References needed! Classical results:
+    Classical results:
 
-    - Irrationality of the square root of two.
-    - Infinitude of primes.
+    - Irrationality of the square root of two ([Cocorico!](https://coq.inria.fr/cocorico/SquareRootTwo)).
+    - Infinitude of primes ([MCB](https://math-comp.github.io/mcb/book.pdf#page=112) [proof](https://math-comp.github.io/mcb/ch4.html)).
 
   - Program extraction
 
