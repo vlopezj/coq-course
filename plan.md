@@ -229,12 +229,8 @@ In no particular order:
 
   - More from CPDT?
 
-  - Type classes.
+  - Abus de notation: Type classes/Canonical structures/Coercions/Unification hints
 
     - Mooooooonads?
-
-  - Canonical structures.
-
-  - Coercions.
 
   - Matthieu Sozeau's program tactics.
