@@ -163,8 +163,6 @@ Some more ideas:
 
 ## Session 6
 
-SSReflect? Proof automation (e.g. LTac + material from CPDT)?
-
   - Proof by reflection and SSReflect
 
     - http://adam.chlipala.net/cpdt/cpdt.pdf#chapter.15
@@ -173,7 +171,7 @@ SSReflect? Proof automation (e.g. LTac + material from CPDT)?
     - https://math-comp.github.io/mcb/
     - http://ilyasergey.net/pnp/
 
-  - Writing tactics
+  - Writing tactics (proof automation)
 
     - Tactic Notation (easy)
 
@@ -186,6 +184,8 @@ SSReflect? Proof automation (e.g. LTac + material from CPDT)?
       [Nisse](http://www.cse.chalmers.se/~nad/) recommended going deep into Ltac with Chlipala's book if we have the time.
       (Which we should, getting the proof of normalization of the simply-typed
       lambda calculus using logical relations should be easy).
+
+    - [Mtac](http://plv.mpi-sws.org/mtac/) (typed tactic programming)
 
 ## Session …
 
@@ -207,17 +207,17 @@ In no particular order:
 
     - Irrationality of the square root of two.
     - Infinitude of primes.
-    
+
   - Program extraction
-  
+
     - Covered in one chapter in SF, but more info in Extraction in VFA
     - Examples with simple programs?
     - Efficiency of extracted programs?
     - [Coq.io](http://coq.io)
     - Any formal guarantees on extracted programs or are they simply pretty-printed?
-    
+
   - Large proof projects
-  
+
     - CompCert
     - [Formalized mathematics](https://coq.inria.fr/cocorico/List%20of%20Coq%20Math%20Projects) (four color theorem often mentioned)
 
