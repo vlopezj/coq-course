@@ -43,7 +43,7 @@ From [Coq at nLab](https://ncatlab.org/nlab/show/Coq):
   SF uses Coq for the formalization of programming languages.
 
 + Adam Chlipala’s [Certified Programming with Dependent Types](http://adam.chlipala.net/cpdt/) explains more advanced Coq techniques.
-
+ 
   It relies heavily on tactics, which can be an impediment if one actually cares about the proof.
 
   CPDT uses Coq as a programming language with a rich type system.
@@ -125,4 +125,10 @@ can use [riot's](http://riot.im) IRC bridge:
 + Simon Robillard
 + Marco Vassena
 
-[**Edit this file**](https://github.com/vlopezj/coq-course/edit/master/README.md)
+The course has started. If you still want to **take part**, you can *add your name to the list of participants* by [editing this file online][edit] and sending in a pull request. Be aware that you might have to work harder in the beginning in order to catch up.
+
+If you have questions, issues or patches, and do not want to use a Github, you can e-mail <project-coq-course@lopezjuan.com> instead.
+
+[**Edit this file**][edit]
+
+[edit]: https://github.com/vlopezj/coq-course/edit/master/README.md
