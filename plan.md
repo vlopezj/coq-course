@@ -74,30 +74,18 @@ If we have the time and the inclination, we will get started with the Coq IDE/Pr
 
 ## [Session 2](notes/session02.md)
 
-### Goals
-
- - Prove the correctness of sorting algorithm on lists.
-
 ### Contents
 
-  - Discuss exercises from previous session.
-  - Theorem search
-  - More on induction proofs. Strong induction.
-  - Induction on trees.
-  - Correctness of merge-sort.
+* Inductive propositions.
+* Tactics for effective induction on inductive propositions.
 
 ### Material
 
- Parts 4 and 5 of https://team.inria.fr/marelle/en/coq-winter-school-2016/.
-
- Part 4 and 5 above cover material not covered in SF (I think --
- Andreas). E.g., part 4 discusses binary encoding of numbers and
- negative numbers (rather than only Peano numbers as done in SF
- (although, binary numbers are mentioned in an exercise in Basics)).
+* Software Foundations, [Inductive Propositions](https://www.cis.upenn.edu/~bcpierce/sf/current/IndProp.html).
 
 ### Exercises
 
- - Exercises from parts 4 and 5 of the material.
+* Exercises based on [IndProp](exercises/ex-indprop.v).
 
 ## Session 3
 
