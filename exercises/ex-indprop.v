@@ -1,6 +1,14 @@
 (*
 # Inductive propositions
 
+```coq
+*)
+
+Section IndProp.
+
+(*
+```
+
 We will use the following tactics:
 
   - `induction`
@@ -652,6 +660,8 @@ Eval compute in matchesD ((«1» · «1» · «1») **) [1;1;1;1;1].
 Eval compute in matchesD ((«1» · «1» · «1») **) [1;1;1;1;1;1].
 
 End RegexDec.
+
+End IndProp.
 
 (*
 ```
