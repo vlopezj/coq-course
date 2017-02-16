@@ -1,5 +1,4 @@
 (*
-
 # Inductive propositions
 
 We will use the following tactics:
@@ -32,7 +31,7 @@ How to define the even natural numbers in Coq?
 
    `unfold` and `discriminate`.
 
-   ```coq
+```coq
 *)
 
 Definition even_p (n : nat) : Prop := exists k, n = k + k.
@@ -59,17 +58,17 @@ discriminate Pk.
 Qed.
 
 (*
-   ```
+```
 
 2. Decision algorithm.
 
-   ```coq
+```coq
 *)
 
 Fixpoint is_even (n : nat) : bool :=
   match n with
   | 0         => true
-  | 1         => false 
+  | 1         => false
   | (S (S n)) => is_even n
   end.
 
@@ -82,17 +81,17 @@ simpl. reflexivity.
 Qed.
 
 (*
-   ```
+```
 
 These are equivalent: proof in the appendix.
 
 - Disadvantages
 
-  - Mathematical characterizations are opaque 
+  - Mathematical characterizations are opaque
     (what does a proof of n = k + k look like?)
     They cannot be inspected, one can only gaze at them.
 
-  - Decision procedures are only good for decidable properties. 
+  - Decision procedures are only good for decidable properties.
 
 Enter inductive predicates.
 
@@ -100,7 +99,7 @@ Enter inductive predicates.
 
 Let’s take `even` as an example.
 
-```
+```coq
 *)
 Inductive even : nat -> Prop :=
   | even_0  : even 0
@@ -128,6 +127,7 @@ inversion H2.
 Qed.
 
 (*
+```
 
 ### Generalize
 
@@ -157,7 +157,7 @@ Proposition even_correct : forall n, even n <-> even_p n.
   generalize n Pk.
   clear n Pk.
   induction k.
-  intros. rewrite Pk. apply even_0. 
+  intros. rewrite Pk. apply even_0.
   intros.
   rewrite Pk.
   simpl "+". rewrite <- plus_n_Sm.
@@ -192,7 +192,7 @@ Admitted.
 Inductive le : nat -> nat -> Prop :=
   | le_n : forall n, le n n
   | le_S : forall m n, le m n -> le m (S n).
-  
+
 Notation "m ≤ n" :=  (le m n) (at level 30).
 
 Example le_3_5 : 3 ≤ 5.
@@ -252,11 +252,11 @@ Fixpoint le_Sm_n (m n : nat) ( H : S m ≤ n) : m ≤ n.
 Qed.
 
 Print le_Sm_n.
-  
+
 (*
 ```
 
-When doing induction on an inductive proposition, we need to 
+When doing induction on an inductive proposition, we need to
 explicitly remember the indices.
 
 ```coq
@@ -284,15 +284,15 @@ Inductive R : nat -> nat -> nat -> Prop :=
 (*
 ```
     * Which of the following propositions are provable?
-      ```coq 
-      *)
-      Example exR1 : R 1 1 2. Admitted.
-      Example exR2 : R 2 2 6. Admitted.
-      (*
-      ```
+```coq
+*)
+Example exR1 : R 1 1 2. Admitted.
+Example exR2 : R 2 2 6. Admitted.
+(*
+```
 
-    * If we dropped constructor c5 from the definition of R, would the set of provable propositions change? 
-    * If we dropped constructor c4 from the definition of R, would the set of provable propositions change? 
+    * If we dropped constructor c5 from the definition of R, would the set of provable propositions change?
+    * If we dropped constructor c4 from the definition of R, would the set of provable propositions change?
 
 ```coq
 *)
@@ -364,14 +364,14 @@ Inductive matches {T} : regex T -> list T -> Prop :=
               matches r₂ ys ->
               matches (r₁ · r₂) (xs ++ ys)
   | m_unionL : forall xs r₁ r₂,
-              matches r₁ xs ->                
+              matches r₁ xs ->
               matches (r₁ ∪ r₂) xs
   | m_unionR : forall xs r₁ r₂,
-              matches r₂ xs ->                
+              matches r₂ xs ->
               matches (r₁ ∪ r₂) xs
   (* Alternative:
   | m_union : forall xs r₁ r₂,
-              matches r₁ xs \/ matches r₂ xs ->                
+              matches r₁ xs \/ matches r₂ xs ->
               matches (r₁ ∪ r₂) xs
   *)
   | m_star0  : forall r₁, matches (r₁ **) []
@@ -417,7 +417,7 @@ Good!
 1. Define a decision procedure to check if a regular expression
    accepts the empty string, and show it correct.
 
-   ```coq
+```coq
 *)
 
 Fixpoint ε_in (T : Type) (re : regex T) : bool
@@ -428,7 +428,7 @@ Arguments ε_in {T}.
 Lemma ε_in_good {T} (re : regex T) : ε_in re = true <-> [] ∈ re.
 Admitted.
 (*
-  ```
+```
 
   Ultimately, we want to decide if an expression matches a given list.
   We can only do this if we have a way of comparing elements in the alphabet
@@ -440,7 +440,7 @@ Admitted.
   There is a polymorphic version of the exercise in the appendix, which you can
   do instead.
 
-  ```coq
+```coq
 *)
 
 Section ExerciseMonomorphic.
@@ -462,13 +462,13 @@ Definition compute_bool_eq (x : bool) :  x == x = true.
 Qed.
 
 (*
-   ```
+```
 
 2. Given a regular expression X accepting a language L, compute the regular expression
-   that accepts the [Brzozowski derivative](https://en.wikipedia.org/wiki/Brzozowski_derivative) of L, 
+   that accepts the [Brzozowski derivative](https://en.wikipedia.org/wiki/Brzozowski_derivative) of L,
    and prove the definition correct.
 
-   ```coq
+```coq
 *)
 
 Fixpoint derivative (re : regex bool) (t : bool) : regex bool
@@ -476,15 +476,15 @@ Fixpoint derivative (re : regex bool) (t : bool) : regex bool
 
 Lemma derivative_good  re a x : x ∈ derivative re a <-> a :: x ∈ re.
 Admitted.
-                                
+
 (*
-   ```
+```
 
-3. Prove that the matching function is correct. You can do this before solving 
-   part 1. or part 2. 
+3. Prove that the matching function is correct. You can do this before solving
+   part 1. or part 2.
 
-   ```coq
- *)
+```coq
+*)
 Fixpoint matches_b (re : regex bool) (x : list bool) : bool :=
   match x with
   | [] => ε_in re
@@ -499,7 +499,7 @@ Admitted.
 
 End ExerciseMonomorphic.
 (*
-  ```
+```
 
 4. (From SF)
 
@@ -514,6 +514,8 @@ Fixpoint regex_list {T} (l : list T) :=
   end.
 
 (*
+```
+
 Show:
 
 ```coq
@@ -568,7 +570,7 @@ Lemma is_even_correct : forall n,  is_even n = true <-> even_p n.
   intros.
   specialize (IHn H); clear H.
   destruct IHn as [k Pk].
-  exists (S k). 
+  exists (S k).
   simpl.
   (* obs: plus_n_Sm: forall n m : nat, S (n + m) = n + S m *)
   rewrite <- plus_n_Sm.
@@ -624,10 +626,10 @@ Defined.
 An instance for `nat`
 
 ```coq
- *)
+*)
 Fixpoint nat_eqDec_f (m n : nat) : bool :=
   match m, n with
-  | 0, 0 => true 
+  | 0, 0 => true
   | S n, S m => nat_eqDec_f n m
   | _, _ => false
   end.
@@ -641,10 +643,10 @@ Admitted.
 Fixpoint derivativeD {T} {eq : eqDec T} (t : T) (re : regex T) : regex T
 . Admitted.
 
-  
+
 Fixpoint matchesD {T} {eq : eqDec T} (re : regex T) (x : list T) : bool
 . Admitted.
-    
+
 Eval compute in matchesD ((«1» · «1» · «1») **) [1;1;1;1;1].
 
 Eval compute in matchesD ((«1» · «1» · «1») **) [1;1;1;1;1;1].
@@ -653,13 +655,4 @@ End RegexDec.
 
 (*
 ```
-
-
 *)
-
-
-
-
-
-  
-
