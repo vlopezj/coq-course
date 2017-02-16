@@ -87,7 +87,7 @@ If we have the time and the inclination, we will get started with the Coq IDE/Pr
 
 Exercises based on the material.
 
-* [exercises/ex-indprop.v](exercises/ex-indprop.v).
+* [exercises/exindprop.v](exercises/exindprop.v).
 
 ## Session 3
 
