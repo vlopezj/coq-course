@@ -50,3 +50,5 @@ Load ex1.
 Fixpoint to_nat (ns : list nat) : nat := 0.
 
 Lemma ex3_6 : forall ns, to_nat (lsucc ns) = S (to_nat ns).
+
+End Three.

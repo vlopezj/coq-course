@@ -74,30 +74,18 @@ If we have the time and the inclination, we will get started with the Coq IDE/Pr
 
 ## [Session 2](notes/session02.md)
 
-### Goals
-
- - Prove the correctness of sorting algorithm on lists.
-
 ### Contents
 
-  - Discuss exercises from previous session.
-  - Theorem search
-  - More on induction proofs. Strong induction.
-  - Induction on trees.
-  - Correctness of merge-sort.
+* Inductive propositions.
+* Tactics for effective induction on inductive propositions.
 
 ### Material
 
- Parts 4 and 5 of https://team.inria.fr/marelle/en/coq-winter-school-2016/.
-
- Part 4 and 5 above cover material not covered in SF (I think --
- Andreas). E.g., part 4 discusses binary encoding of numbers and
- negative numbers (rather than only Peano numbers as done in SF
- (although, binary numbers are mentioned in an exercise in Basics)).
+* Software Foundations, [Inductive Propositions](https://www.cis.upenn.edu/~bcpierce/sf/current/IndProp.html).
 
 ### Exercises
 
- - Exercises from parts 4 and 5 of the material.
+* Exercises based on [IndProp](exercises/ex-indprop.v).
 
 ## Session 3
 
@@ -163,8 +151,6 @@ Some more ideas:
 
 ## Session 6
 
-SSReflect? Proof automation (e.g. LTac + material from CPDT)?
-
   - Proof by reflection and SSReflect
 
     - http://adam.chlipala.net/cpdt/cpdt.pdf#chapter.15
@@ -173,7 +159,7 @@ SSReflect? Proof automation (e.g. LTac + material from CPDT)?
     - https://math-comp.github.io/mcb/
     - http://ilyasergey.net/pnp/
 
-  - Writing tactics
+  - Writing tactics (proof automation)
 
     - Tactic Notation (easy)
 
@@ -186,6 +172,8 @@ SSReflect? Proof automation (e.g. LTac + material from CPDT)?
       [Nisse](http://www.cse.chalmers.se/~nad/) recommended going deep into Ltac with Chlipala's book if we have the time.
       (Which we should, getting the proof of normalization of the simply-typed
       lambda calculus using logical relations should be easy).
+
+    - [Mtac](http://plv.mpi-sws.org/mtac/) (typed tactic programming)
 
 ## Session …
 
@@ -203,21 +191,21 @@ In no particular order:
 
   - Proofs about arithmetic
 
-    References needed! Classical results:
+    Classical results:
 
-    - Irrationality of the square root of two.
-    - Infinitude of primes.
-    
+    - Irrationality of the square root of two ([Cocorico!](https://coq.inria.fr/cocorico/SquareRootTwo)).
+    - Infinitude of primes ([MCB](https://math-comp.github.io/mcb/book.pdf#page=112) [proof](https://math-comp.github.io/mcb/ch4.html)).
+
   - Program extraction
-  
+
     - Covered in one chapter in SF, but more info in Extraction in VFA
     - Examples with simple programs?
     - Efficiency of extracted programs?
     - [Coq.io](http://coq.io)
     - Any formal guarantees on extracted programs or are they simply pretty-printed?
-    
+
   - Large proof projects
-  
+
     - CompCert
     - [Formalized mathematics](https://coq.inria.fr/cocorico/List%20of%20Coq%20Math%20Projects) (four color theorem often mentioned)
 
@@ -229,12 +217,8 @@ In no particular order:
 
   - More from CPDT?
 
-  - Type classes.
+  - Abus de notation: Type classes/Canonical structures/Coercions/Unification hints
 
     - Mooooooonads?
-
-  - Canonical structures.
-
-  - Coercions.
 
   - Matthieu Sozeau's program tactics.
