@@ -19,7 +19,7 @@ Tentative Plan with 2 topics per session.
 |         | Exercises 1, 2, 3                |             |
 |  2/03   |                                  |             |
 |         |                                  |             |
-|  16/03  | Induction Principles             |             |
+|  16/03  | Induction Principles             | Andreas - infinite data & related (short) |
 |         | Properties of Relations          |             |
 |  30/03  | Imp: Simple Imperative Programs  |             |
 |         | Evaluation Function for Imp      |             |
