@@ -70,7 +70,7 @@ If we have the time and the inclination, we will get started with the Coq IDE/Pr
 
 ### Exercises
 
-  - Exercises from parts [1](exercises/ex1.v), [2](exercises/ex2.v) and [3](exercises/ex3.v) of the material.
+  - Exercises from parts [1](exercises/1/ex1.v), [2](exercises/1/ex2.v) and [3](exercises/1/ex3.v) of the material.
 
 ## [Session 2](notes/session02.md)
 
@@ -87,7 +87,7 @@ If we have the time and the inclination, we will get started with the Coq IDE/Pr
 
 Exercises based on the material.
 
-* [exercises/exindprop.v](exercises/exindprop.v).
+* [exercises/2/exindprop.v](exercises/2/exindprop.v).
 
 ## Session 3
 

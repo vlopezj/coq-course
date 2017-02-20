@@ -43,7 +43,7 @@ From [Coq at nLab](https://ncatlab.org/nlab/show/Coq):
   SF uses Coq for the formalization of programming languages.
 
 + Adam Chlipala’s [Certified Programming with Dependent Types](http://adam.chlipala.net/cpdt/) explains more advanced Coq techniques.
- 
+
   It relies heavily on tactics, which can be an impediment if one actually cares about the proof.
 
   CPDT uses Coq as a programming language with a rich type system.

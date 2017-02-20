@@ -4,7 +4,7 @@
    http://www.cis.upenn.edu/~bcpierce/sf/current/IndProp.html
 
 2. Discuss exercises from [Session 1](session01.md):
-   Exercises from parts [1](/exercises/ex1.v), [2](/exercises/ex2.v) and [3](/exercises/ex3.v) of the material.
+   Exercises from parts [1](/exercises/1/ex1.v), [2](/exercises/1/ex2.v) and [3](/exercises/1/ex3.v) of the material.
 
 3. Discuss [syllabus](/syllabus.md) (Marco, everyone)
 
