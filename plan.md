@@ -89,7 +89,7 @@ Exercises based on the material.
 
 * [exercises/2/exindprop.v](exercises/2/exindprop.v).
 
-## Session 3
+## [Session 3](notes/session03.md)
 
 ### Goals
 
