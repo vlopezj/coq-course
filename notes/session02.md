@@ -10,3 +10,9 @@
 
    - Schedule topic proposals so far.
    - Choose what to present next time, and someone to present it.
+
+## For next time
+
+- Do [exercises](/exercises/2/).
+- Read [Imp](http://www.cis.upenn.edu/~bcpierce/sf/current/Imp.html)
+  chapter from Software Foundations.
