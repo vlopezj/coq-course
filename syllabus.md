@@ -17,12 +17,12 @@ Tentative Plan with 2 topics per session.
 |  2/02   | Organization                     |             |
 |  16/02  | Inductively Defined Propositions | Victor      |
 |         | Exercises 1, 2, 3                |             |
-|  2/03   |                                  |             |
-|         |                                  |             |
+|  2/03   | Imp: Simple Imperative Programs  |             |
+|         | Evaluation Function for Imp      |             |
 |  16/03  | Induction Principles             | Andreas - infinite data & related (short) |
 |         | Properties of Relations          |             |
-|  30/03  | Imp: Simple Imperative Programs  |             |
-|         | Evaluation Function for Imp      |             |
+|  30/03  |                                  |             |
+|         |                                  |             |
 |  13/04  | Hoare: Hoare Logic               |             |
 |         | Small-step Operational Semantics |             |
 |  27/04  | Types: Type Systems              |             |
