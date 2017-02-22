@@ -17,8 +17,8 @@ Tentative Plan with 2 topics per session.
 |  2/02   | Organization                     |             |
 |  16/02  | Inductively Defined Propositions | Victor      |
 |         | Exercises 1, 2, 3                |             |
-|  2/03   | Imp: Simple Imperative Programs  |             |
-|         | Evaluation Function for Imp      |             |
+|  2/03   | The CoC, Prop vs Set, proof terms  | Simon     |
+|         |                                  |             |
 |  16/03  | Induction Principles             | Andreas - infinite data & related (short) |
 |         | Properties of Relations          |             |
 |  30/03  |                                  |             |
