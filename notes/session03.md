@@ -1,6 +1,6 @@
 # Session 3 (Thursday March 2nd)
 
-1. Simon Roubillard will talk about the calculus of constructions, 
+1. Simon Robillard will talk about the calculus of constructions, 
    Prop vs Set, and proof terms.
 
 2. Discuss exercises from session 2:
