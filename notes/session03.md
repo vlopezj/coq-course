@@ -1,7 +1,7 @@
 # Session 3 (Thursday March 2nd)
 
-1. Discuss chapter on imperative programs from software foundations:
-   [Imp](http://www.cis.upenn.edu/~bcpierce/sf/current/Imp.html).
+1. Simon Roubillard will talk about the calculus of constructions, 
+   Prop vs Set, and proof terms.
 
 2. Discuss exercises from session 2:
    [Exercises](/exercises/2/).
