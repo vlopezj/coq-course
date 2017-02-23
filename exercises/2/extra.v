@@ -2,6 +2,9 @@
 Just some extra (optional) thms, feel free to add more.
 *)
 
+Require Import exindprop.
+Import IndProp.
+
 Theorem empty_star : forall {T} (x : T) (xs : list T),
   ~(x::xs ∈ (ε : regex T)**).
 Admitted.

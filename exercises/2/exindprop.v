@@ -4,7 +4,9 @@
 ```coq
 *)
 
-Section IndProp.
+Require Bool List.
+
+Module IndProp.
 
 (*
 ```
@@ -320,7 +322,7 @@ End R.
 ```coq
 *)
 
-Require Import Bool List.
+Import Bool List.
 Import ListNotations.
 
 Inductive regex (T : Type) : Type :=
