@@ -37,13 +37,13 @@ General reference material for the course.
 
 From [Coq at nLab](https://ncatlab.org/nlab/show/Coq):
 
-+ Benjamin Pierce’s [Software Foundations](http://www.cis.upenn.edu/~bcpierce/sf) is probably the most elementary introduction to Coq and functional progamming. The book is written in Coq so you can directly open the source files in CoqIDE and step through them to see what is going on and solve the exercises.
++ Benjamin Pierce’s [Software Foundations](http://www.cis.upenn.edu/~bcpierce/sf) (SF) is probably the most elementary introduction to Coq and functional progamming. The book is written in Coq so you can directly open the source files in CoqIDE and step through them to see what is going on and solve the exercises.
 
   This book should be good for people with a CS background (and some PL on top of that).
 
   SF uses Coq for the formalization of programming languages.
 
-+ Adam Chlipala’s [Certified Programming with Dependent Types](http://adam.chlipala.net/cpdt/) explains more advanced Coq techniques.
++ Adam Chlipala’s [Certified Programming with Dependent Types](http://adam.chlipala.net/cpdt/) (CPDT) explains more advanced Coq techniques.
 
   It relies heavily on tactics, which can be an impediment if one actually cares about the proof.
 
@@ -62,6 +62,8 @@ From [Coq at nLab](https://ncatlab.org/nlab/show/Coq):
   finite group theory, representations, ... + some finite graph theory).
 
 + [Verified Functional Algorithms](https://www.cs.princeton.edu/~appel/vfa/) by Andrew W. Appel. "Volume 3 of the Software Foundations series".
+
+Comparison between [SF, CPDT and Coq’Art](http://lambda.jstolarek.com/2016/06/coqart-cpdt-and-sf-a-review-of-books-on-coq-proof-assistant/).
 
 ### Tutorials
 
