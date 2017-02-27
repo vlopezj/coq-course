@@ -430,10 +430,8 @@ Good!
 ```coq
 *)
 
-Fixpoint ε_in (T : Type) (re : regex T) : bool.
+Fixpoint ε_in {T : Type} (re : regex T) : bool.
 Admitted.
-
-Arguments ε_in {T} _.
 
 Lemma ε_in_good {T} (re : regex T) : ε_in re = true <-> [] ∈ re.
 Admitted.
