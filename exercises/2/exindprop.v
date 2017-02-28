@@ -648,7 +648,7 @@ Proof.
   (** x = S _ *)
 Admitted.
 
-Fixpoint derivativeD {T} {eq : eqDec T} (t : T) (re : regex T) : regex T
+Fixpoint derivativeD {T} {eq : eqDec T} (re : regex T) (t : T) : regex T
 . Admitted.
 
 
