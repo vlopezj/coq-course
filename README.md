@@ -131,7 +131,7 @@ can use [riot's](http://riot.im) IRC bridge:
 
 The course has started. If you still want to **take part**, you can *add your name to the list of participants* by [editing this file online][edit] and sending in a pull request. Be aware that you might have to work harder in the beginning in order to catch up.
 
-If you have questions, issues or patches, and do not want to use a Github, you can e-mail <project-coq-course@lopezjuan.com> instead.
+If you have questions, issues or patches, and do not want to use a Github account, you can e-mail <project-coq-course@lopezjuan.com> instead.
 
 [**Edit this file**][edit]
 
