@@ -14,4 +14,4 @@
 
 ## For next time
 
-
+- Do exercises for session 3. [Exercises](/exercises/3/).
