@@ -128,6 +128,7 @@ can use [riot's](http://riot.im) IRC bridge:
 + Simon Robillard
 + Marco Vassena
 + Simon Huber
++ João Pizani (visiting until 2017-04-07)
 
 The course has started. If you still want to **take part**, you can *add your name to the list of participants* by [editing this file online][edit] and sending in a pull request. Be aware that you might have to work harder in the beginning in order to catch up.
 
