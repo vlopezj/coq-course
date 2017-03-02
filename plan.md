@@ -116,7 +116,7 @@ Exercises based on the material.
 
  - TBD
 
-## Session 4
+## [Session 4](notes/session04.md)
 
 ### Goals
 
