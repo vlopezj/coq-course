@@ -2,6 +2,7 @@
 
 1. Simon Robillard will talk about the calculus of constructions, 
    Prop vs Set, and proof terms.
+   [Presentation](/presentations/Presentation_week3.v)
 
 2. Discuss exercises from session 2:
    [Exercises](/exercises/2/).
@@ -13,4 +14,4 @@
 
 ## For next time
 
-[TBD]
+- Do exercises for session 3. [Exercises](/exercises/3/).
