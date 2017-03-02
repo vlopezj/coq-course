@@ -114,7 +114,7 @@ Exercises based on the material.
 
 ### Exercises
 
- - TBD
+ - [Ex1.v](/exercises/3/Ex1.v) and [Ex2.v](/exercises/3/Ex2.v).
 
 ## [Session 4](notes/session04.md)
 
