@@ -12,7 +12,7 @@ The course will take place during 2017 LP3.
 
 - Kick-off meeting: Thu 2nd Feb, 3:15pm-5pm, room 6128. [Plan](plan.md), [Notes](notes/session01.md)
 - Session 2: Thu 16th Feb, 3:15-5pm, room 6128. [Notes](/notes/session02.md)
-- Session 3: Thu 2nd Mar, 3:15-5pm, room 6128. [Agenda](/notes/session03.md)
+- Session 3: Thu 2nd Mar, 3:15-5pm, room 6128. [Notes](/notes/session03.md)
 - Session 4: Thu 16th Mar, 3:15-5pm, room 6128. [Agenda](/notes/session04.md)
 
 ### Deliverables
