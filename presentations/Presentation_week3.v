@@ -1,10 +1,10 @@
-(** * The calculcus of (co)inductive constructions *)
+(** * The calculus of (co)inductive constructions *)
 
 (** ** Abstraction *)
 
 (** The calculus used in Coq is based on the calculus of constructions
     [Coquand, Huet, '88] with the addition of several later extensions
-    such as an infinite hierachy of types [Luo, '89], inductively
+    such as an infinite hierarchy of types [Luo, '89], inductively
     defined data types [Pfenning, Paulin-Morhing, '88] and
     co-inductively defined data types [Giménez, 95].
 
@@ -70,7 +70,7 @@ Check Set.
 
 Check Type.
 
-(** This last answer should be suprising. It is known that this kind
+(** This last answer should be surprising. It is known that this kind
     of typing results in an inconsistent system, for reasons similar
     to Russell's paradox in naive set theory (this is called Girard's
     paradox and is not quite as easy to exhibit as Russell's).
@@ -84,8 +84,8 @@ Check Set.
 
 Check Type.
 
-(** We now see that Type actually stands for an infinite hierachy of
-    types, thus preventing Girard's paradox. Each occurence of Type is
+(** We now see that Type actually stands for an infinite hierarchy of
+    types, thus preventing Girard's paradox. Each occurrence of Type is
     called a universe. Conveniently, any universe of rank i also has
     rank j for any j > i (so for example Set has the type Type(i) for
     any i).*)
@@ -248,7 +248,7 @@ Qed.
 
 Print and_comm.
 
-(** The tactic refine is a more genral version of exact. Instead of a
+(** The tactic refine is a more general version of exact. Instead of a
     fully-formed term, it lets us put a term with holes (of course the
     type of this term must unify with the expected type of the
     hole). We can fill each hole later.
@@ -277,7 +277,7 @@ Inductive eq (T : Type) (x : T) : T -> Prop :=
     equivalent terms. On the meta-level, two terms are considered
     equivalent if they have identical normal forms.
 
-    For example 0 + (0 + (0 +n)) is equivalent n. However n + 0 does
+    For example 0 + (0 + (0 + n)) is equivalent n. However n + 0 does
     not normalize to n, so it is not considered equivalent.*)
 
 (** ** Inductive proofs *)
@@ -357,7 +357,7 @@ Print ind_step.
     proofs). The existence or non-existence of a proof matters, but
     the specifics of a given proof can usually be ignored.
 
-    In constrast, for types in Set (so-called small types, such as
+    In contrast, for types in Set (so-called small types, such as
     bool, nat -> nat -> nat), we tend to care about the specifics of
     the elements that implement the type: true is different from
     false, mult from add...
