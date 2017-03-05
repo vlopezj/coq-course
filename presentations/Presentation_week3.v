@@ -60,7 +60,7 @@ Check arrow_n.
       arguments to functions, be used in the definition of a type. It
       also means that they have a type themselves *)
 
-(** We can keep checking the types upward *).
+(** We can keep checking the types upward *)
 
 Check 0.
 
