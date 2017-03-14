@@ -53,19 +53,19 @@ Definition base_case : 0 = 0 + 0
 . (* Proof term here *) Admitted.
 
 (* This proof can be difficult to write, as often with equality-based
-   proofs.  Hint: It can be done using only eq_rect. *)
+   proofs.  Hint: It can be done using only [eq_rect]. *)
 Definition inductive_step : forall n, n = n + 0 -> S n = S n + 0
 . (* Proof term here *) Admitted.
 
 (** Combine the two lemmas into an inductive proof/recursive
-    function. Use fix to define the recursion (see presentation), or
-    alternatively replace Definition by Fixpoint. *)
+    function. Use [fix] to define the recursion (see presentation), or
+    alternatively replace <<Definition>> by <<Fixpoint>>. *)
 Definition add_0 : forall n, n = n + 0
 . (* Proof term here *) Admitted.
 
 (** Use tactics to define addition over natural numbers, instead of
-    writing the term directly. Use the keyword "Defined" instead of
-    the usual "Qed" at the end of your script: This ensures that the
+    writing the term directly. Use the keyword <<Defined>> instead of
+    the usual <<Qed>> at the end of your script: This ensures that the
     proof term that you created is transparent (not opaque as proofs
     usually are). *)
 Definition add' : nat -> nat -> nat.
