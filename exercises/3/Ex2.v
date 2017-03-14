@@ -1,6 +1,6 @@
 (** Inductive datatypes were not part of the original calculus of
     constructions. The only native logical connective is product
-    (forall) but it can be used to define other connectives.*)
+    (forall) but it can be used to define other connectives. *)
 
 (** The first two definitions are fairly useless but illustrate the
     logical interpretation of the product construct. *)
@@ -12,28 +12,28 @@ Definition univ_quantification (T : Type) (P : T -> Prop) := forall (x : T), P x
 Definition and (P Q : Prop) := forall (R : Prop), (P -> Q -> R) -> R.
 (** This can be understood as "any proposition R that requires a
     function of type P -> Q -> R to be is the type of proofs of P and
-    Q".*)
+    Q". *)
 
 (** Disjunction *)
 Definition or (P Q : Prop) := forall (R : Prop), (P -> R) -> (Q -> R) -> R.
 
 (** Negation *)
 Definition not (P : Prop) := forall (Q : Prop), P -> Q.
-  
-(** Existential quantification*)
+
+(** Existential quantification *)
 Definition ex (T : Type) (P : T -> Prop) := forall (Q : Prop), (forall (t : T), P t -> Q) -> Q.
 
 (** Prove the following lemmas, first with a proof script, then by
-    writing a proof term directly.*)
+    writing a proof term directly. *)
 
 (** To make it easier to write proof terms, you can write terms with
     placeholders (underscore) such as (fun (x : T) => _). If the
     content of the placeholder can be inferred because of type
-    dependencies, Coq will do so automatically. Otherwise you get an
-    error message with indicates the expected type of the
-    placeholder.*)
+    dependencies, Coq will do so automagically. Otherwise, you get an
+    error message which indicates the expected type of the
+    placeholder. *)
 
-(** Example*)
+(** Example *)
 Theorem or_comm : forall (P Q : Prop), or P Q -> or Q P.
 Proof.
   unfold or; intros.
@@ -79,7 +79,7 @@ Definition modus_ponens' : forall (P Q : Prop), and (or (not P) Q) P -> Q
 
 (** Provide a non-inductive definition of the type of equivalent
     propositions, without relying on a previously defined proposition
-    (such as and)*)
+    (such as and). *)
 Definition iff (P Q : Prop) : Prop := True.
 
 Theorem iff_refl : forall (A : Prop), iff A A.
@@ -120,10 +120,10 @@ Definition ex_not_all :
 . Admitted.
 
 (** Try to give a non-inductive definition of the type of false
-    propositions *)
+    propositions. *)
 Definition false : Prop := True.
 
-(** Hint for the definition: the principle of explosion (forall P,
+(** Hint for the definition: The principle of explosion (forall P,
     false -> P) can be seen as defining falsehood. *)
 Theorem ex_falso : forall (P : Prop), false -> P.
   (* write a proof script here *)
