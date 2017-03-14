@@ -113,7 +113,7 @@ Proof.
   (* write a proof script here *)
 Admitted.
 
-Definition ex_not_all :
+Definition all_not_ex' :
   forall (T : Type) (P : T -> Prop),
     iff (forall (x : T), not (P x)) (not (ex T P))
   (* write a proof term here *)
