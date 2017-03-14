@@ -80,7 +80,7 @@ Definition modus_ponens' : forall (P Q : Prop), and (or (not P) Q) P -> Q
 (** Provide a non-inductive definition of the type of equivalent
     propositions, without relying on a previously defined proposition
     (such as [and]). *)
-Definition iff (P Q : Prop) : Prop := True.
+Definition iff (P Q : Prop) : Prop := False.
 
 Theorem iff_refl : forall (A : Prop), iff A A.
   (* write a proof script here *)
