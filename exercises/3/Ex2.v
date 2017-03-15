@@ -1,6 +1,6 @@
 (** Inductive datatypes were not part of the original calculus of
     constructions. The only native logical connective is product
-    (<<forall>>) but it can be used to define other connectives. *)
+    ([forall]) but it can be used to define other connectives. *)
 
 (** The first two definitions are fairly useless but illustrate the
     logical interpretation of the product construct. *)
@@ -10,9 +10,9 @@ Definition univ_quantification (T : Type) (P : T -> Prop) := forall (x : T), P x
 
 (** _Conjunction_ *)
 Definition and (P Q : Prop) := forall (R : Prop), (P -> Q -> R) -> R.
-(** This can be understood as "any proposition <<R>> that requires a
-    function of type <<P -> Q -> R>> to be is the type of proofs of <<P>> and
-    <<Q>>". *)
+(** This can be understood as "any proposition [R] that requires a
+    function of type [P -> Q -> R] to be is the type of proofs of [P] and
+    [Q]". *)
 
 (** _Disjunction_ *)
 Definition or (P Q : Prop) := forall (R : Prop), (P -> R) -> (Q -> R) -> R.
