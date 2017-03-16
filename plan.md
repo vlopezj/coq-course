@@ -131,7 +131,7 @@ Exercises based on the material.
 
 ### Exercises
 
-  - TBD
+  - [ex.v](/exercises/4/ex.v).
 
 ## Session 5
 

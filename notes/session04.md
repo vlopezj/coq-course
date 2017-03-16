@@ -1,10 +1,11 @@
 # Session 4 (Thursday March 16th)
 
-1. Andreas Lööw will tell us about codatatypes. 
+1. Andreas Lööw will tell us about codatatypes.
+   [Presentation](/presentations/4/lecture04.v)
 
 2. Discuss exercises from session 3:
    [Exercises](/exercises/3/).
-    
+
 3. [Syllabus](/syllabus.md)
 
    - Schedule topic proposals so far.
@@ -12,4 +13,4 @@
 
 ## For next time
 
-[TBD]
+- Do exercises for session 4. [Exercises](/exercises/4/ex.v).
