@@ -18,7 +18,7 @@ Tentative Plan with 2 topics per session.
 |  16/02  | Inductively Defined Propositions | Victor      |
 |         | Exercises 1, 2, 3                |             |
 |  2/03   | The CoC, Prop vs Set, proof terms  | Simon     |
-|  16/03  | CPDT vs. SF, infinite data & related, maybe termination | Andreas     |
+|  16/03  | CPDT vs. SF and infinite data & related | Andreas     |
 |  30/03  |                                  |             |
 |         |                                  |             |
 |  13/04  | Hoare: Hoare Logic               |             |
