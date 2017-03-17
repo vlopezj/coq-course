@@ -71,9 +71,9 @@ Inductive ex1_trans : ex1_processes -> ex1_actions -> ex1_processes -> Prop :=
 | Q3Q2 : ex1_trans Q3 a Q2.
 
 Inductive ex1_R : ex1_processes -> ex1_processes -> Prop :=
-  | P1Q1_R : ex1_R P1 Q1
-  | P1Q3_R : ex1_R P1 Q3
-  | P2Q2_R : ex1_R P2 Q2.
+| P1Q1_R : ex1_R P1 Q1
+| P1Q3_R : ex1_R P1 Q3
+| P2Q2_R : ex1_R P2 Q2.
 
 Theorem P1_Q1_bisim : strong_eq _ _ ex1_trans P1 Q1.
 Proof.
