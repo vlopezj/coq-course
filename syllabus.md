@@ -12,18 +12,18 @@ Tentative Plan with 2 topics per session.
 
   - You can find many suggestions for topics in the [course plan](/plan.md).
 
-| *Date*  | *Topic*                          | *Presenter* |
-| ------: |:--------------------------------:| :-----------|
-|  2/02   | Organization                     |             |
-|  16/02  | Inductively Defined Propositions | Victor      |
-|         | Exercises 1, 2, 3                |             |
-|  2/03   | The CoC, Prop vs Set, proof terms  | Simon     |
+| *Date*  | *Topic*                                 | *Presenter* |
+| ------: |:---------------------------------------:| :-----------|
+|  2/02   | Organization                            |             |
+|  16/02  | Inductively Defined Propositions        | Victor      |
+|         | Exercises 1, 2, 3                       |             |
+|  2/03   | The CoC, Prop vs Set, proof terms       | Simon       |
 |  16/03  | CPDT vs. SF and infinite data & related | Andreas     |
-|  30/03  |                                  |             |
-|         |                                  |             |
-|  13/04  | Hoare: Hoare Logic               |             |
-|         | Small-step Operational Semantics |             |
-|  27/04  | Types: Type Systems              |             |
-|         | Sub: Subtyping                   | Marco       |
-|  11/05  | Typing Mutable References        |             |
-|  ??/05  | Proof by Reflection / ssreflect  | Daniel      |
+|  30/03  | TBD (s/t from the 2 following entries)  | Irene       |
+|         |                                         |             |
+|  13/04  | Hoare: Hoare Logic                      |             |
+|         | Small-step Operational Semantics        |             |
+|  27/04  | Types: Type Systems                     |             |
+|         | Sub: Subtyping                          | Marco       |
+|  11/05  | Typing Mutable References               |             |
+|  ??/05  | Proof by Reflection / ssreflect         | Daniel      |
