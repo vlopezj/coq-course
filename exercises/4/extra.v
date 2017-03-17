@@ -52,6 +52,31 @@ Also, warning: The transitivity proof seemed long in the original file (but not 
 Theorem strong_eq_equiv' : equiv _ strong_eq.
 Admitted.
 
+(* 2.1.1 Finite traces and ω-traces on processes *)
+
+(* Finite traces *)
+Inductive ft : process -> Prop :=
+| ft_stopped p : (forall (a : action), ~(exists (p' : process), transition p a p')) -> ft p
+| ft_step p : forall (a : action) (p' : process), transition p a p' -> ft p' -> ft p.
+
+Theorem strong_eq_ft : forall (p q : process),
+    ft p -> strong_eq p q -> ft q.
+Admitted.
+
+(* ω-traces *)
+CoInductive wt (a : action) : process -> Prop :=
+| wt_step p : forall (p' : process), transition p a p' -> wt a p' -> wt a p.
+
+(* Co-induction principle for ω-traces *)
+Theorem wt_coind : forall (a : action) (R : process -> Prop),
+    (forall (p : process), R p -> exists (p' : process), R p' /\ transition p a p') ->
+    (forall (p : process), R p -> wt a p).
+Admitted.
+
+Theorem strong_eq_wt : forall (a : action) (p q : process),
+    wt a p -> strong_eq p q -> wt a q.
+Admitted.
+
 End LTS.
 
 (* Shows that P1 and Q1 from fig. 1.2 (in the book), i.e. one of the examples from the "lecture", are bisimilar *)
