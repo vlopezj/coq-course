@@ -16,7 +16,7 @@ CoInductive pstream_eq {A} : pstream A -> pstream A -> Prop :=
     pstream_eq t1 t2 -> pstream_eq (pCons h t1) (pCons h t2).
 
 (* Implement the standard map function for potentially infinite streams *)
-CoFixpoint pmap {A B} (f : A -> B) (s : pstream A) : pstream B.
+CoFixpoint pmap {A B} (f : A -> B) (s : pstream A) : pstream B. Admitted.
 
 CoFixpoint pzeroes : pstream nat := pCons 0 pzeroes.
 CoFixpoint pones : pstream nat := pCons 1 pones.
