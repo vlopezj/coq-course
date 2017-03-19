@@ -1,4 +1,27 @@
-(** Certified Programming with Dependent Types by Adam Chlipala **)
+(*
+References:
+
+Informal classical mathematics:
+
+ * Introduction to Bisimulation and Coinduction (2012)
+ * (Advanced Topics in Bisimulation and Coinduction (2011))
+
+There are also various shorter tutorials on the Internet, e.g. "A Tutorial on (Co)Algebras and (Co)Induction".
+But the first mentioned book in the list is easier the follow imho, as it only relies on elementary mathematics.
+
+Coq:
+
+ * Chapter "Infinite Data and Proofs" in Certified Programming with Dependent Types
+ * Chapter "Infinite Objects and Proofs" in Coq'Art
+ * https://hritcu.wordpress.com/2012/12/23/learning-teaching-coinduction-with-coq/
+
+PLT:
+
+ * https://github.com/mietek/total-functional-programming
+ * Chapter "Inductive and Coinductive Types" in Practical Foundations for Programming Languages
+*)
+
+(** CPDT vs SF **)
 
 (*
 Biggest difference: Different proof style, prefer automation over manual sequencing of tactics.
