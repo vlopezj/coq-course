@@ -48,8 +48,30 @@ Require Import Coq.Relations.Relation_Definitions.
 People asked about this during the "lecture", so why not prove it formally?
 (Why isn't the first argument implicit for equiv? Strange design!)
 Also, warning: The transitivity proof seemed long in the original file (but not necessarily complicated or unreasonably long).
+
+This is thm 1.4.14 in the book.
 *)
 Theorem strong_eq_equiv' : equiv _ strong_eq.
+Admitted.
+
+(* Almost exercise 1.4.16, but alternative definition of bisimilar instead of bisimulation *)
+Inductive ttransition : process -> list action -> process -> Prop :=
+| ttransition_base : forall (p : process),
+    ttransition p [] p
+| ttransition_step : forall (p1 p2 p3 : process) (act : action) (acts : list action),
+    transition p1 act p2 -> ttransition p2 acts p3 -> ttransition p1 (act::acts) p3.
+
+CoInductive tstrong_eq : process -> process -> Prop :=
+  tstr_eq : forall p q : process,
+    (forall (acts : list action) (p' : process),
+        ttransition p acts p' ->
+        exists q' : process, ttransition q acts q' /\ tstrong_eq p' q') ->
+    (forall (acts : list action) (q' : process),
+        ttransition q acts q' ->
+        exists p' : process, ttransition p acts p' /\ tstrong_eq p' q') ->
+    tstrong_eq p q.
+
+Theorem strong_eq_eq_tstrong_eq : forall (p q : process), strong_eq p q <-> tstrong_eq p q.
 Admitted.
 
 (* 2.1.1 Finite traces and ω-traces on processes *)
