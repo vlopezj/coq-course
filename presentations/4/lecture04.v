@@ -42,7 +42,7 @@ Proof.
   * rewrite IHn. rewrite <- plus_n_Sm. reflexivity. Qed.
 
 (* CPDT way, special configuration needed to be able to load this *)
-Require Import Cpdt.CpdtTactics.
+Load CpdtTactics.
 
 Theorem plus_comm' : forall n m, n + m = m + n.
 Proof.
