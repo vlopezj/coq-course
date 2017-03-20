@@ -364,7 +364,16 @@ Definition frob {A} (s : stream A) : stream A :=
   end.
 
 Theorem frob_eq : forall {A} (s : stream A), s = frob s.
-Proof. destruct s; reflexivity. Qed.
+Proof. destruct s; reflexivity. Defined.
+
+(* The trouble with [froq_eq]: (pointed out by Andrea) *)
+Definition frob_eq_ones : ones = frob ones := frob_eq ones.
+Eval compute in frob_eq_ones.
+(* [= eq_refl : ones = frob ones] *)
+Fail Check (eq_refl : ones = frob ones).
+(* Error:
+   The term [eq_refl] has type [ones = ones] while it is expected to have type
+   [ones = frob ones] (cannot unify [ones] and [frob ones]). *)
 
 (* Let's try with ones_eq again: *)
 Theorem ones_eq : stream_eq ones ones'.
