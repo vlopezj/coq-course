@@ -299,7 +299,7 @@ CoInductive stream_eq {A} : stream A -> stream A -> Prop :=
 | Stream_eq : forall h t1 t2,
     stream_eq t1 t2 -> stream_eq (h::t1) (h::t2).
 
-Check eq
+Check eq.
 
 (*
 This is sometimes called "bisimilar" instead of stream_eq, but I don't see the direct connection to bisimilarity. But will prove a connection to something similar below.
