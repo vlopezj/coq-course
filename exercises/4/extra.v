@@ -5,6 +5,9 @@ Just some extra (optional) thms/stuff, feel free to add more.
 (* Thm references etc. are to "Introduction to Bisimulation and Coinduction". *)
 Section LTS.
 
+Require Import Coq.Lists.List.
+Import ListNotations. (* defines notation [[]] for [nil] *)
+
 (* Stolen from coq-contribs/ccs on Github *)
 
 Variable process action : Set.
