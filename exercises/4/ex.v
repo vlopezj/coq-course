@@ -82,13 +82,14 @@ Definition tail {A} (s : stream A) : stream A :=
   | h::t => t
   end.
 
-Fixpoint repeat {A} (n : nat) (f : A -> A) (a : A) : A :=
+(* repeatedly apply a function [n] times *)
+Fixpoint iterate {A} (n : nat) (f : A -> A) (a : A) : A :=
   match n with
   | O => a
-  | S n' => f (repeat n' f a)
+  | S n' => f (iterate n' f a)
   end.
 
-Definition tail_n {A} (n : nat) (s : stream A) : stream A := repeat n tail s.
+Definition tail_n {A} (n : nat) (s : stream A) : stream A := iterate n tail s.
 
 Definition head_n {A} (n : nat) (s : stream A) : A := head (tail_n n s).
 
@@ -117,14 +118,14 @@ Theorem Exists_tail : ~(forall {A} n (P : stream A -> Prop) (s : stream A),
                        Exists s P -> Exists (tail_n n s) P).
 Admitted.
 
-(* Let's prove things about this class of streams instead of general thms *)
-CoFixpoint inf_n n : stream nat := n::(inf_n n).
+(* Let's prove things about this class of streams %[%#[#an element repeated indefinitely#]#%]% instead of general thms *)
+CoFixpoint repeat n : stream nat := n::(repeat n).
 
-Theorem tail_n_zeroes : forall n, stream_eq (tail (inf_n n)) (inf_n n).
+Theorem tail_n_zeroes : forall n, stream_eq (tail (repeat n)) (repeat n).
 Admitted.
 
-Theorem repeat_n_tail_inf_n : forall n m, stream_eq (tail_n n (inf_n m))
-                                                    (inf_n m).
+Theorem iterate_n_tail_repeat : forall n m, stream_eq (tail_n n (repeat m))
+                                                      (repeat m).
 Admitted.
 
 (* Mutual recursion, nothing exciting *)
