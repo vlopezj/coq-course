@@ -450,12 +450,15 @@ Definition tail {A} (s : stream A) : stream A :=
   | h::t => t
   end.
 
+Definition Bisimulation {A} (R : stream A -> stream A -> Prop) :=
+    (forall s1 s2, R s1 s2 -> head s1 = head s2) /\
+    (forall s1 s2, R s1 s2 -> R (tail s1) (tail s2)).
+
 Theorem stream_eq_bisim : forall {A} (R : stream A -> stream A -> Prop),
-    (forall s1 s2, R s1 s2 -> head s1 = head s2) ->
-    (forall s1 s2, R s1 s2 -> R (tail s1) (tail s2)) ->
+    Bisimulation R ->
     forall s1 s2, R s1 s2 -> stream_eq s1 s2.
 Proof.
-  intros A R H_head H_tail. cofix. destruct s1, s2. intros.
+  intros A R [H_head H_tail]. cofix. destruct s1, s2. intros.
   generalize (H_head _ _ H). intros. simpl in H0. rewrite H0. constructor.
   apply stream_eq_bisim.
   apply (H_tail _ _ H). Qed.
@@ -463,7 +466,7 @@ Proof.
 Theorem ones_eq_ones' : stream_eq ones ones'.
 Proof.
   (* Easy to automate more, but want to be able to follow the proof *)
-  apply (stream_eq_bisim (fun s1 s2 => s1 = ones /\ s2 = ones')); intros.
+  apply stream_eq_bisim with (fun s1 s2 => s1 = ones /\ s2 = ones'); [split|]; intros.
   * destruct H. subst. reflexivity.
   * destruct H. subst. split.
    + reflexivity.
