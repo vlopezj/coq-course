@@ -454,11 +454,13 @@ Definition Bisimulation {A} (R : stream A -> stream A -> Prop) :=
     (forall s1 s2, R s1 s2 -> head s1 = head s2) /\
     (forall s1 s2, R s1 s2 -> R (tail s1) (tail s2)).
 
-Theorem stream_eq_bisim : forall {A} (R : stream A -> stream A -> Prop),
+Theorem stream_eq_bisim : forall {A}, @Bisimulation A stream_eq /\ forall (R : stream A -> stream A -> Prop),
     Bisimulation R ->
     forall s1 s2, R s1 s2 -> stream_eq s1 s2.
 Proof.
-  intros A R [H_head H_tail]. cofix. destruct s1, s2. intros.
+  split.
+  split; destruct 1; trivial.
+  intros R [H_head H_tail]. cofix. destruct s1, s2. intros.
   generalize (H_head _ _ H). intros. simpl in H0. rewrite H0. constructor.
   apply stream_eq_bisim.
   apply (H_tail _ _ H). Qed.
