@@ -1,4 +1,4 @@
-# Session 4 (Thursday March 16th)
+# Session 5 (Thursday April 6th)
 
 1. Irene Lobo will present something great.
 
