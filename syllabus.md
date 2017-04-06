@@ -18,11 +18,12 @@ Tentative Plan with 2 topics per session.
 |  16/02  | Inductively Defined Propositions        | Victor      |
 |  2/03   | The CoC, Prop vs Set, proof terms       | Simon R.    |
 |  16/03  | CPDT vs. SF and infinite data & related | Andreas     |
-|  6/04   | ~~TBD (s/t from the 2 following entries)~~  | ~~Irene~~       |
-|         |                                         |             |
-|         | Hoare: Hoare Logic                      |             |
-|         | Small-step Operational Semantics        |             |
-|         | Types: Type Systems                     |             |
-|         | Sub: Subtyping                          |             |
-|         | Typing Mutable References               |             |
+|  6/04   | [No presentation]                       | -           |
+|         | Exercises about Types: Type Systems.    |             |
+|  20/04  | TBD                                     | Irene (?)   |
+|  04/05  | AutoSubst Coq library                   | Andrea      |
 |  ??/05  | Proof by Reflection / ssreflect         | Daniel      |
+|  ??     |                                         |             |
+
+
+An overall goal is to get to the `Norm: Normalization of STLC` chapter, but, depending on the topics that presenters pick and timing constraints, we might stop somewhere along the way.
