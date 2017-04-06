@@ -11,9 +11,6 @@
     Coq!). *)
 
 Require Import Coq.Arith.Arith.
-(* Require Import Maps.
-Require Import Imp.
-Require Import Smallstep. *)
 
 Load Relation.
 Load Maps.
