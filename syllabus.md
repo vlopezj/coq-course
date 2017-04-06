@@ -23,7 +23,9 @@ Tentative Plan with 2 topics per session.
 |  20/04  | TBD                                     | Irene (?)   |
 |  04/05  | AutoSubst Coq library                   | Andrea      |
 |  ??/05  | Proof by Reflection / ssreflect         | Daniel      |
-|  ??     |                                         |             |
+|  ??     |                                         | ??          |
 
 
-An overall goal is to get to the `Norm: Normalization of STLC` chapter, but, depending on the topics that presenters pick and timing constraints, we might stop somewhere along the way.
+An overall goal is to get to the `Norm: Normalization of STLC` [chapter](http://www.cis.upenn.edu/~bcpierce/sf/current/Norm.html), but, depending on the topics that presenters pick and timing constraints, we might stop somewhere along the way. This will require going through the [STλC](http://www.cis.upenn.edu/~bcpierce/sf/current/Stlc.html) and perhaps [STλCProp](http://www.cis.upenn.edu/~bcpierce/sf/current/StlcProp.html).
+
+Presenters are *not* discouraged from picking other, unrelated topics. Once they have chosen a topic, they are encouraged to give examples or exercises related to the overall goal, if possible.
