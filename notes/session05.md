@@ -10,7 +10,8 @@
    
 3. [Syllabus](/syllabus.md)
 
-   - We decided to aim towards the [Norm](http://www.cis.upenn.edu/~bcpierce/sf/current/Norm.html)
+   - We decided to aim towards the [Norm](http://www.cis.upenn.edu/~bcpierce/sf/current/Norm.html) chapter in SF. 
+     Of course, speakers are free to pick topics that do not relate to this.
 
 ## For next time
 
