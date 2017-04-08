@@ -687,7 +687,7 @@ Proof.
 [] *)
 
 (** **** Exercise: 1 starM (remove_predzero)  *)
-(** The reduction rule [E_PredZero] is a bit counter-intuitive: we
+(** The reduction rule [ST_PredZero] is a bit counter-intuitive: we
     might feel that it makes more sense for the predecessor of zero to
     be undefined, rather than being defined to be zero.  Can we
     achieve this simply by removing the rule from the definition of
