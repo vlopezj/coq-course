@@ -60,4 +60,6 @@
 
   - Matthieu Sozeau's program tactics
 
+  - http://adam.chlipala.net/frap/
+
   - See also the links/books/references in the README
