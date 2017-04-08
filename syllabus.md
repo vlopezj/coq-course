@@ -1,7 +1,5 @@
 # Syllabus
 
-Tentative Plan with 2 topics per session.
-
 * Everyone presents at least one topic and prepares exercises for it.
 * If you want to present some topic, write your name in the presenter column!
 
@@ -10,22 +8,20 @@ Tentative Plan with 2 topics per session.
   - If the topic is new, add your name and the title to the end of the table.
     We can agree on a date and make space for your presentation during the next session.
 
-  - You can find many suggestions for topics in the [course plan](/plan.md).
+  - You can find many suggestions for topics in [suggestions.md](/suggestions.md).
 
 | *Date*  | *Topic*                                 | *Presenter* |
 | ------: |:---------------------------------------:| :-----------|
 |  2/02   | Organization                            |             |
-|  16/02  | Inductively Defined Propositions        | Victor      |
+|  16/02  | "Inductively Defined Propositions"      | Victor      |
 |  2/03   | The CoC, Prop vs Set, proof terms       | Simon R.    |
 |  16/03  | CPDT vs. SF and infinite data & related | Andreas     |
-|  6/04   | [No presentation]                       | -           |
-|         | Exercises about Types: Type Systems.    |             |
+|  6/04   | _No presentation_: Exercises from "Types Systems" | -           |
 |  20/04  | TBD                                     | Irene (?)   |
 |  04/05  | AutoSubst Coq library                   | Andrea      |
 |  ??/05  | Proof by Reflection / ssreflect         | Daniel      |
 |  ??     |                                         | ??          |
 
-
-An overall goal is to get to the `Norm: Normalization of STLC` [chapter](http://www.cis.upenn.edu/~bcpierce/sf/current/Norm.html), but, depending on the topics that presenters pick and timing constraints, we might stop somewhere along the way. This will require going through the [STλC](http://www.cis.upenn.edu/~bcpierce/sf/current/Stlc.html) and perhaps [STλCProp](http://www.cis.upenn.edu/~bcpierce/sf/current/StlcProp.html).
+An overall goal is to get to "[Normalization of STλC](http://www.cis.upenn.edu/~bcpierce/sf/current/Norm.html)", but, depending on the topics that presenters pick and timing constraints, we might stop somewhere along the way. This will require going through the "[STλC](http://www.cis.upenn.edu/~bcpierce/sf/current/Stlc.html)" and perhaps "[STλCProp](http://www.cis.upenn.edu/~bcpierce/sf/current/StlcProp.html)".
 
 Presenters are *not* discouraged from picking other, unrelated topics. Once they have chosen a topic, they are encouraged to give examples or exercises related to the overall goal, if possible.
