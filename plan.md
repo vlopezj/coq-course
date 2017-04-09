@@ -1,6 +1,6 @@
 # Course plan
 
-_No longer maintained, see session note files instead._
+_No longer maintained, see [session notes](notes) instead._
 
 Each session covers some content with the objective of achieving some goals.
 At the end of each session, we set exercises about what we covered to be
