@@ -11,5 +11,5 @@
    
 ## For next time
 
-- Do the [exercises for session 5](/exercises/5/ex-types.v).
+- Do the [exercises for session 5](/exercises/5/extypes.v).
 - [...]
