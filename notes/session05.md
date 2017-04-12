@@ -16,6 +16,4 @@
 ## For next time
 
 - Read the [Types chapter](http://www.cis.upenn.edu/~bcpierce/sf/current/Types.html) and
-  do the [Exercises](/exercises/5/ex-types.v).  
-  
-  You don't need to do the [exercises about Maps](/exercises/5/Maps.v), but you may want to look at [that chapter](http://www.cis.upenn.edu/~bcpierce/sf/current/Maps.html) nonetheless.
+  do the [Exercises](/exercises/5/extypes.v).
