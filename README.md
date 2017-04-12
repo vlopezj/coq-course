@@ -135,6 +135,7 @@ can use [riot's](http://riot.im) IRC bridge:
 + Marco Vassena
 + Simon Huber
 + João Pizani (visiting until 2017-04-07)
++ Youyou Cong (visiting until 2017-06-19)
 
 The course has started. If you still want to **take part**, you can *add your name to the list of participants* by [editing this file online][edit] and sending in a pull request. Be aware that you might have to work harder in the beginning in order to catch up.
 
