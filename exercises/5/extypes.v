@@ -1,3 +1,8 @@
+(** printing ==>  $⟹$  #⟹#  *)
+(** printing ==>* $⟹*$ #⟹*# *)
+(** printing |-   $⊢$  #⊢#  *)
+(** printing \in  $∈$  #∈#  *)
+
 (** * Types: Type Systems *)
 
 (** Our next major topic is _type systems_ -- static program
@@ -35,7 +40,7 @@ Hint Constructors multi.
 (** ** Syntax *)
 
 (** Here is the syntax, informally:
-
+<<
     t ::= true
         | false
         | if t then t else t
@@ -43,7 +48,7 @@ Hint Constructors multi.
         | succ t
         | pred t
         | iszero t
-
+>>
     And here it is formally: *)
 
 Inductive tm : Type :=
@@ -76,7 +81,7 @@ Hint Unfold update.
 
 (** Here is the single-step relation, first informally... *)
 (**
-
+<<
                     ------------------------------                  (ST_IfTrue)
                     if true then t1 else t2 ==> t1
 
@@ -112,6 +117,7 @@ Hint Unfold update.
                               t1 ==> t1'
                        ------------------------                     (ST_Iszero)
                        iszero t1 ==> iszero t1'
+>>
 *)
 
 (** ... and then formally: *)
@@ -156,9 +162,9 @@ Hint Constructors step.
     of operands.  For example, the term [succ true] (i.e., 
     [tsucc ttrue] in the formal syntax) cannot take a step, but the
     almost as obviously nonsensical term
-
+<<
        succ (if true then true else true)
-
+>>
     can take a step (once, before becoming stuck). *)
 
 (* ================================================================= *)
@@ -236,6 +242,7 @@ Inductive ty : Type :=
     written to the left of the turnstile.  For the moment, the context
     is always empty. *)
 (** 
+<<
                            ----------------                            (T_True)
                            |- true \in Bool
 
@@ -260,6 +267,7 @@ Inductive ty : Type :=
                             |- t1 \in Nat
                         ---------------------                        (T_IsZero)
                         |- iszero t1 \in Bool
+>>
 *)
 
 Reserved Notation "'|-' t '\in' T" (at level 40).
@@ -606,11 +614,11 @@ Proof.
 
 (** **** Exercise: 2 starsM (variation1)  *)
 (** Suppose, that we add this new rule to the typing relation:
-
+<<
       | T_SuccBool : forall t,
            |- t \in TBool ->
            |- tsucc t \in TBool
-
+>>
    Which of the following properties remain true in the presence of
    this rule?  For each one, write either "remains true" or
    else "becomes false." If a property becomes false, give a
@@ -625,10 +633,10 @@ Proof.
 
 (** **** Exercise: 2 starsM (variation2)  *)
 (** Suppose, instead, that we add this new rule to the [step] relation:
-
+<<
       | ST_Funny1 : forall t2 t3,
            (tif ttrue t2 t3) ==> t3
-
+>>
    Which of the above properties become false in the presence of
    this rule?  For each one that does, give a counter-example.
 
@@ -636,11 +644,11 @@ Proof.
 
 (** **** Exercise: 2 stars, optional (variation3)  *)
 (** Suppose instead that we add this rule:
-
+<<
       | ST_Funny2 : forall t1 t2 t2' t3,
            t2 ==> t2' ->
            (tif t1 t2 t3) ==> (tif t1 t2' t3)
-
+>>
    Which of the above properties become false in the presence of
    this rule?  For each one that does, give a counter-example.
 
@@ -648,10 +656,10 @@ Proof.
 
 (** **** Exercise: 2 stars, optional (variation4)  *)
 (** Suppose instead that we add this rule:
-
+<<
       | ST_Funny3 :
           (tpred tfalse) ==> (tpred (tpred tfalse))
-
+>>
    Which of the above properties become false in the presence of
    this rule?  For each one that does, give a counter-example.
 
@@ -659,10 +667,10 @@ Proof.
 
 (** **** Exercise: 2 stars, optional (variation5)  *)
 (** Suppose instead that we add this rule:
-
+<<
       | T_Funny4 :
             |- tzero \in TBool
-
+>>
    Which of the above properties become false in the presence of
    this rule?  For each one that does, give a counter-example.
 
@@ -670,10 +678,10 @@ Proof.
 
 (** **** Exercise: 2 stars, optional (variation6)  *)
 (** Suppose instead that we add this rule:
-
+<<
       | T_Funny5 :
             |- tpred tzero \in TBool
-
+>>
    Which of the above properties become false in the presence of
    this rule?  For each one that does, give a counter-example.
 
