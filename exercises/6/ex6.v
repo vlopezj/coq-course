@@ -130,6 +130,9 @@ where "Γ '⊢' t '∈' T" := (has_type Γ t T).
 
 Hint Constructors has_type.
 
+End STLC.
+
+Import STLC.
 
 Definition has_types (Γ : context)(σ : var -> tm) (Δ : context)
   := forall x T,  Δ x = Some T -> Γ ⊢ σ x ∈ T.
@@ -153,8 +156,8 @@ Proof.
   induction tt; intros; asimpl; eauto.
   constructor. apply IHtt. apply upren_typing. assumption.
 Qed.
-  
-  
+
+
 (* Exercises *)
 
 Lemma up_typing : forall Γ σ Δ T,
