@@ -31,9 +31,9 @@ Lemma up_upren (ξ : var -> var) : up (ren ξ) = ren (upren ξ).
   autosubst.
 Qed.
 
-Lemma upren_unfold (xi : nat -> nat) :
-               upren xi 0     = 0
-  /\ forall n, upren xi (S n) = S (xi n).
+Lemma upren_unfold (ξ : nat -> nat) :
+               upren ξ 0     = 0
+  /\ forall n, upren ξ (S n) = S (ξ n).
   split. trivial. intro. trivial.
 Qed.
 
@@ -138,21 +138,21 @@ Definition has_types (Γ : context)(σ : var -> tm) (Δ : context)
   := forall x T,  Δ x = Some T -> Γ ⊢ σ x ∈ T.
 
 
-Lemma upren_typing : forall Γ σ Δ T,
-                     has_types Γ (ren σ) Δ ->
-                     has_types (Some T .: Γ) (ren (upren σ)) (Some T .: Δ).
+Lemma upren_typing : forall Γ ξ Δ T,
+                     has_types Γ (ren ξ) Δ ->
+                     has_types (Some T .: Γ) (ren (upren ξ)) (Some T .: Δ).
 Proof.
   intros * H. intros x U p.
   destruct x; simpl; eauto.
   - inversion p as [H1]. assert (tt := H x U H1). inversion tt. eauto.
 Qed.
 
-Lemma ren_typing : forall Γ σ Δ T t,
+Lemma ren_typing : forall Γ ξ Δ T t,
                      has_type Δ t T ->
-                     has_types Γ (ren σ) Δ ->
-                    has_type Γ t.[ren σ] T.
+                     has_types Γ (ren ξ) Δ ->
+                    has_type Γ t.[ren ξ] T.
 Proof.
-  intros * tt. generalize Γ σ. clear Γ σ.
+  intros * tt. generalize Γ ξ. clear Γ ξ.
   induction tt; intros; asimpl; eauto.
   constructor. apply IHtt. apply upren_typing. assumption.
 Qed.
