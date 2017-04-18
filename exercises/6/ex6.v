@@ -1,4 +1,5 @@
-(* https://www.ps.uni-saarland.de/autosubst/ *)
+(* https://www.ps.uni-saarland.de/autosubst/,
+   only branch coq86-devel builds with the latest version of Coq. *)
 Require Import Autosubst.Autosubst.
 
 Module STLC.
