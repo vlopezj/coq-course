@@ -149,9 +149,9 @@ Proof.
 Qed.
 
 Lemma ren_typing : forall Γ ξ Δ T t,
-                     has_type Δ t T ->
+                     Δ ⊢ t ∈ T ->
                      has_types Γ (ren ξ) Δ ->
-                    has_type Γ t.[ren ξ] T.
+                     Γ ⊢ t.[ren ξ] ∈ T.
 Proof.
   intros * tt. generalize Γ ξ. clear Γ ξ.
   induction tt; intros; asimpl; eauto.
