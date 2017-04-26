@@ -8,8 +8,13 @@ Load "ex6.v".
 
 Definition halts (t:tm) : Prop :=  exists t', t ⇒* t' /\ value t'.
 
+<<<<<<< HEAD
 (* The logical relation we will use.
    Check Chapter 12 of Types and Programming Languages (Pierce)
+=======
+(* Exercise 1: Define R such that these properties hold:
+   Check chapter 12 of Types and Programming Languages (Pierce)
+>>>>>>> ecbf98bfee50b6060e799ed675047616ada3bcc8
 *)
 Fixpoint R (T:ty) (t:tm) : Prop :=
     halts t /\ empty ⊢ t ∈ T /\
@@ -60,8 +65,14 @@ Admitted.
 Lemma closed_R : forall t T,  empty ⊢ t ∈ T -> R T t.
 Admitted.
 
+<<<<<<< HEAD
 (* Exercise 4: Prove that the STλC is strongly normalizing.
    You can do this exercise even before doing any of the earlier exercises.
+=======
+(* Exercise 3: Using R_halts and subst_R, prove that the STλC is
+   strongly normalizing.
+   You can do this even before doing Exercises 1 and 2.
+>>>>>>> ecbf98bfee50b6060e799ed675047616ada3bcc8
  *)
 Lemma strong_normalization (t : tm) (T : ty) : empty ⊢ t ∈ T -> halts t.
 Admitted.
