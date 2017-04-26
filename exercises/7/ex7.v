@@ -9,7 +9,7 @@ Load "ex6.v".
 Definition halts (t:tm) : Prop :=  exists t', t ⇒* t' /\ value t'.
 
 (* Exercise 1: Define R such that these properties hold:
-   Check Chapter 12 of Types and Programming Languages (Pierce)
+   Check chapter 12 of Types and Programming Languages (Pierce)
 *)
 Definition R (T:ty) (t:tm) : Prop. Admitted.
 
@@ -33,7 +33,7 @@ Lemma subst_R : forall Γ t T γ,
 Admitted.
 
 (* Exercise 3: Using R_halts and subst_R, prove that the STλC is
-   strongly normalizing. 
+   strongly normalizing.
    You can do this even before doing Exercises 1 and 2.
  *)
 Lemma strong_normalization (t : tm) (T : ty) : empty ⊢ t ∈ T -> halts t.
