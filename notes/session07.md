@@ -11,6 +11,6 @@
 ## For next time
   
    - Do [exercises for session 7](/exercises/7/ex7.v), proving normalization for STλC.
-     Check out Benjamin Pierce's, Types for Programs and Proofs, Chapter 12.
+     Check out Benjamin Pierce's, Types and Programming Languages, Chapter 12.
      _Do not read the Software Foundation's chapter, it gives the solution away._
      
