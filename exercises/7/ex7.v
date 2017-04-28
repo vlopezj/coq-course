@@ -57,7 +57,7 @@ Admitted.
 (** _Exercise 4_: Prove that the STλC is strongly normalizing.
    You can do this exercise even before doing any of the earlier exercises.
  *)
-Lemma strong_normalization (t : tm) (T : ty) : empty ⊢ t ∈ T -> halts t.
+Lemma normalization (t : tm) (T : ty) : empty ⊢ t ∈ T -> halts t.
 Admitted.
 
 (* BONUS: Extend the logical relation and the rest of the proof to work with sum types. *)
