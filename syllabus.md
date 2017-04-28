@@ -18,7 +18,8 @@
 |  16/03  | CPDT vs. SF and infinite data & related | Andreas     |
 |  6/04   | _No presentation_: Exercises from "Types Systems" | -           |
 |  12/04  | AutoSubst Coq library                   | Andrea      |
-|  ??/05  | Proof by Reflection / ssreflect         | Daniel      |
+|  27/04  | Basic Ltac programming                  | Fabian      |
+|  11/05  | Proof by reflection / ssreflect         | Daniel      |
 |  ??     |                                         | ??          |
 
 An overall goal is to get to "[Normalization of STλC](http://www.cis.upenn.edu/~bcpierce/sf/current/Norm.html)", but, depending on the topics that presenters pick and timing constraints, we might stop somewhere along the way. This will require going through the "[STλC](http://www.cis.upenn.edu/~bcpierce/sf/current/Stlc.html)" and perhaps "[STλCProp](http://www.cis.upenn.edu/~bcpierce/sf/current/StlcProp.html)".
