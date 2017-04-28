@@ -17,6 +17,7 @@ The course will take place during 2017 LP3 and LP4.
 - Session 5: Thu 6th Apr, 3:15-5pm, room 6128. [Notes](/notes/session05.md)
 - Session 6: *Wed* 12th Apr, 3:15-5pm, room *4128*. [Notes](/notes/session06.md)
 - Session 7: Thu 27th Apr, 3:15-5pm, room 6128. [Notes](/notes/session07.md)
+- Session 8: Thu 11th May, 3:15-5pm, room 6128. [Notes](/notes/session08.md)
 
 ### Deliverables
 
