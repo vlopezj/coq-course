@@ -1,0 +1,4 @@
+[submodule "exercises/6/autosubst"]
+	path = exercises/6/autosubst
+	url = https://github.com/tebbi/autosubst.git
+	branch = coq86-devel
