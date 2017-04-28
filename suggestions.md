@@ -58,7 +58,7 @@
 
   - Abus de notation: Type classes/Canonical structures/Coercions/Unification hints/Mooooooonads
 
-  - Matthieu Sozeau's program tactics
+  - Matthieu Sozeau's [Program](https://coq.inria.fr/refman/Reference-Manual027.html) tactics and [Equations](https://www.irif.fr/~sozeau/research/coq/equations.en.html) plugin
 
   - http://adam.chlipala.net/frap/
 
