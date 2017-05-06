@@ -19,16 +19,10 @@ Fixpoint R (T:ty) (t:tm) : Prop :=
     end.
 
 Lemma R_halts : forall {T} {t}, R T t -> halts t.
-  intros.
-  induction T.
-  all: simpl in H; tauto.
-Defined.
+Proof. destruct T; simpl; tauto. Qed.
 
 Lemma R_typable_empty : forall {T} {t}, R T t -> empty ⊢ t ∈ T.
-  intros.
-  induction T.
-  all: simpl in H; tauto.
-Defined.
+Proof. destruct T; simpl; tauto. Qed.
 
 (** _Exercise 1_ (warm up): Show that the reduction relation is deterministic.
    This is a very strong property; one may want to do the proof with a non-deterministic
