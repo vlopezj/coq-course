@@ -50,10 +50,17 @@ Admitted.
 Lemma closed_R : forall t T, empty ⊢ t ∈ T -> R T t.
 Admitted.
 
-(** _Exercise 4_: Prove that the STλC is strongly normalizing.
+(** _Exercise 4_: Prove that the STλC is normalizing.
    You can do this exercise even before doing any of the earlier exercises.
  *)
 Lemma normalization (t : tm) (T : ty) : empty ⊢ t ∈ T -> halts t.
+Admitted.
+
+(** _Exercise extra 1_: Strong normalization also! *)
+Inductive strongly_normalizing : tm -> Prop :=
+  | sn : forall t, (forall t', t ⇒ t' -> strongly_normalizing t') -> strongly_normalizing t.
+
+Lemma strong_normalization : forall t T, empty ⊢ t ∈ T -> strongly_normalizing t.
 Admitted.
 
 (* BONUS: Extend the logical relation and the rest of the proof to work with sum types. *)
