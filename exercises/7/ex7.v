@@ -63,4 +63,14 @@ Inductive strongly_normalizing : tm -> Prop :=
 Lemma strong_normalization : forall t T, empty ⊢ t ∈ T -> strongly_normalizing t.
 Admitted.
 
-(* BONUS: Extend the logical relation and the rest of the proof to work with sum types. *)
+(* BONUS: Extend the logical relation and the rest of the proof to work with sum types.
+<<
+       t ⇒* inl v    R A v
+       -------------------
+          R (Sum A B) t
+
+       t ⇒* inr v    R B v
+       -------------------
+          R (Sum A B) t
+>>
+*)

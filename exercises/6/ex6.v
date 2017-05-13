@@ -195,5 +195,55 @@ Theorem progress : forall t T,
 Admitted.
 
 
-(* Extra exercise, add sums! If you proved them with enough automation
+(* Extra exercise, add sums!
+<<
+       t ::= …                     t ::= …
+           | inl t                     | inl T t
+           | inr t          or         | inr T t
+           | case t t t                | case t t t
+
+
+       v ::= …                     v ::= …
+           | inl v          or         | inl t
+           | inr v                     | inr t
+
+
+       T ::= …
+           | Sum T T
+
+
+                t ⇒ t'
+            --------------
+            inl t ⇒ inl t'
+
+                t ⇒ t'
+            --------------
+            inr t ⇒ inr t'
+
+                t ⇒ t'
+       ------------------------
+       case t l r ⇒ case t' l r
+
+       -------------------------
+       case (inl v) l r ⇒ l.[v/]
+
+       -------------------------
+       case (inr v) l r ⇒ r.[v/]
+
+
+               Γ ⊢ t ∈ A
+          -------------------
+          Γ ⊢ inl t ∈ Sum A B
+
+               Γ ⊢ t ∈ B
+          -------------------
+          Γ ⊢ inr t ∈ Sum A B
+
+            Γ ⊢ t ∈ Sum A B
+             Γ, A ⊢ l ∈ C
+             Γ, B ⊢ r ∈ C
+          ------------------
+          Γ ⊢ case t l r ∈ C
+>>
+If you proved them with enough automation
 the substitution lemmas shouldn't need to be updated! *)
