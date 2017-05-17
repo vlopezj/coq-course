@@ -54,7 +54,7 @@ From [Coq at nLab](https://ncatlab.org/nlab/show/Coq):
 
   CPDT uses Coq as a programming language with a rich type system.
 
-+ [Mathematical Components](https://math-comp.github.io/mcb/book.pdf) by Assia Mahboubi, Enrico Tassi with contributions by Yves Bertot and Georges Gonthier:
++ [Mathematical Components](https://math-comp.github.io/mcb/book.pdf) (MCB) by Assia Mahboubi, Enrico Tassi with contributions by Yves Bertot and Georges Gonthier:
 
   > This books targets two classes of public.  On one hand newcomers, even the
   > more mathematical inclined ones,  find a soft introduction to the programming
@@ -66,7 +66,7 @@ From [Coq at nLab](https://ncatlab.org/nlab/show/Coq):
   (natural and polynomial arithmetic, finite dimensional linear algebra,
   finite group theory, representations, ... + some finite graph theory).
 
-+ [Verified Functional Algorithms](https://www.cs.princeton.edu/~appel/vfa/) by Andrew W. Appel. "Volume 3 of the Software Foundations series".
++ [Verified Functional Algorithms](https://www.cs.princeton.edu/~appel/vfa/) (VFA) by Andrew W. Appel. "Volume 3 of the Software Foundations series".
 
 Comparison between [SF, CPDT and Coq’Art](http://lambda.jstolarek.com/2016/06/coqart-cpdt-and-sf-a-review-of-books-on-coq-proof-assistant/).
 
