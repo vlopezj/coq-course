@@ -45,7 +45,7 @@ If we have the time and the inclination, we will get started with the Coq IDE/Pr
     - Finite types
     - Recursive types
     - Parameterized types
-    - Function definitions
+    - Function definitions (primitive recursion and structural recursion)
 
   - Prop vs. Type
     - Metatheory
