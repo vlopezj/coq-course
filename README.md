@@ -4,7 +4,7 @@ Coq course at the Chalmers CSE department, in principle for PhD students.
 
 *Disclaimer:*
 - *This course is not guaranteed to take place. Times, contents and evaluation form are provisional and subject to change.*
-- *This course is planned as a self-reading course. As such, each person is individually responsible for fulfiling the goals set by the examiner. No assistance is provided beyond what other participants are willing and able to give.*
+- *This course is planned as a self-reading course. As such, each person is individually responsible for fulfilling the goals set by the examiner. No assistance is provided beyond what other participants are willing and able to give.*
 
 ## Dates
 
