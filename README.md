@@ -33,7 +33,7 @@ the natural numbers, or any other inductively defined set.
 
 ## Course plan
 
-See **[syllabus.md](syllabus.md)** and **[plan.md](plan.md)** for more details.
+See **[syllabus.md](syllabus.md)**, **[suggestions.md](suggestions.md)** and **[plan.md](plan.md)** for more details.
 
 ## Reference material
 
@@ -41,7 +41,7 @@ General reference material for the course.
 
 ### Books
 
-From [Coq at nLab](https://ncatlab.org/nlab/show/Coq):
+Partly based on [Coq at nLab](https://ncatlab.org/nlab/show/Coq):
 
 + Benjamin Pierce’s [Software Foundations](http://www.cis.upenn.edu/~bcpierce/sf) (SF) is probably the most elementary introduction to Coq and functional progamming. The book is written in Coq so you can directly open the source files in CoqIDE and step through them to see what is going on and solve the exercises.
 
@@ -91,7 +91,7 @@ Comparison between [SF, CPDT and Coq’Art](http://lambda.jstolarek.com/2016/06/
 
 + [Exercises written for Certified Programming with Dependent Types](http://adam.chlipala.net/cpdt/ex/):
 
-  + [Snapshot of exercises](http://adam.chlipala.net/cpdt/ex/exercises.pdf) that were included in CPDT when I decided to stop maintaining exercises -- Adam Chlipala
+  + [Snapshot of exercises](http://adam.chlipala.net/cpdt/ex/exercises.pdf) that were included in CPDT when Chlipala decided to stop maintaining them
 
   + [Homeworks from CIS 670 at Penn in Fall 2012](http://www.cis.upenn.edu/~bcpierce/courses/670Fall12/) -- Benjamin Pierce and students in the class
 
@@ -99,7 +99,7 @@ Comparison between [SF, CPDT and Coq’Art](http://lambda.jstolarek.com/2016/06/
 
 + There are quite many exercises in the SF books (SF and VFA) and Coq'Art.
 
-+ [Modelling and verifying algorithms in Coq: an introduction](http://www.di.ens.fr/~zappa/teaching/coq/ecole11/), yet another introductory tutorial, has some exercises.
++ [Modelling and verifying algorithms in Coq: an introduction](http://www.di.ens.fr/~zappa/teaching/coq/ecole11/) -- yet another introductory tutorial, has some exercises.
 
 + [Coq Math Problems](https://coq-math-problems.github.io/) -- growing collection of "interesting, challenging, or fun math problems formalized in Coq"
 
