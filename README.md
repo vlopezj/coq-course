@@ -69,6 +69,10 @@ From [Coq at nLab](https://ncatlab.org/nlab/show/Coq):
 
 + [Verified Functional Algorithms](https://www.cs.princeton.edu/~appel/vfa/) (VFA) by Andrew W. Appel. "Volume 3 of the Software Foundations series".
 
++ Coq'Art
+
++ [Formal Reasoning About Programs](http://adam.chlipala.net/frap/) (FRAP), another book by Chlipala. Similar to SF in the sense that it's also about PLT, see course web page for more info. Has exercises.
+
 Comparison between [SF, CPDT and Coq’Art](http://lambda.jstolarek.com/2016/06/coqart-cpdt-and-sf-a-review-of-books-on-coq-proof-assistant/).
 
 ### Tutorials
