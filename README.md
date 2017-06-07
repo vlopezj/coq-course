@@ -93,11 +93,15 @@ Comparison between [SF, CPDT and Coq’Art](http://lambda.jstolarek.com/2016/06/
 
 + [Exercises from the 2012 International Spring School on FORMALIZATION OF MATHEMATICS](http://www-sop.inria.fr/manifestations/MapSpringSchool/program.html)
 
-+ There are quite many exercises in Pierce's SF book.
++ There are quite many exercises in the SF books (SF and VFA) and Coq'Art.
 
 + [Modelling and verifying algorithms in Coq: an introduction](http://www.di.ens.fr/~zappa/teaching/coq/ecole11/), yet another introductory tutorial, has some exercises.
 
-+ [Exercism.io](http://exercism.io/languages/coq/exercises) -- not so many here.
++ [Coq Math Problems](https://coq-math-problems.github.io/) -- growing collection of "interesting, challenging, or fun math problems formalized in Coq"
+
++ [Exercises on Generalizing the Induction Hypothesis](https://homes.cs.washington.edu/~jrw12/InductionExercises.html)
+
++ ([Exercism.io](http://exercism.io/languages/coq/exercises) -- currently only trivial exercises.)
 
 ## Examination
 
