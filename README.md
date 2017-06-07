@@ -8,7 +8,7 @@ Coq course at the Chalmers CSE department, in principle for PhD students.
 
 ## Dates
 
-The course will take place during 2017 LP3 and LP4.
+The course took place during 2017 LP3 and LP4.
 
 - Kick-off meeting: Thu 2nd Feb, 3:15pm-5pm, room 6128. [Plan](plan.md), [Notes](notes/session01.md)
 - Session 2: Thu 16th Feb, 3:15-5pm, room 6128. [Notes](/notes/session02.md)
@@ -18,7 +18,7 @@ The course will take place during 2017 LP3 and LP4.
 - Session 6: *Wed* 12th Apr, 3:15-5pm, room *4128*. [Notes](/notes/session06.md)
 - Session 7: Thu 27th Apr, 3:15-5pm, room 6128. [Notes](/notes/session07.md)
 - Session 8: Thu 11th May, 3:15-5pm, room 6128. [Notes](/notes/session08.md)
-- Session 9: *Wed* 7th June, 3:15-5pm, room *4128*.
+- Final meeting: *Wed* 7th June, 3:15-5pm, room *4128*.
 
 ### Deliverables
 
@@ -149,7 +149,7 @@ can use [riot's](http://riot.im) IRC bridge:
 + João Pizani (visiting until 2017-04-07)
 + Youyou Cong (visiting until 2017-06-19)
 
-The course has started. If you still want to **take part**, you can *add your name to the list of participants* by [editing this file online][edit] and sending in a pull request. Be aware that you might have to work harder in the beginning in order to catch up.
+~~The course has started. If you still want to **take part**, you can *add your name to the list of participants* by [editing this file online][edit] and sending in a pull request. Be aware that you might have to work harder in the beginning in order to catch up.~~ The course is over.
 
 If you have questions, issues or patches, and do not want to use a Github account, you can e-mail <project-coq-course@lopezjuan.com> instead.
 
