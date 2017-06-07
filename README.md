@@ -99,6 +99,8 @@ Comparison between [SF, CPDT and Coq’Art](http://lambda.jstolarek.com/2016/06/
 
 + There are quite many exercises in the SF books (SF and VFA) and Coq'Art.
 
++ [Exercises](https://github.com/mit-frap) for a [class](https://frap.csail.mit.edu/) that uses FRAP as the primary text
+
 + [Modelling and verifying algorithms in Coq: an introduction](http://www.di.ens.fr/~zappa/teaching/coq/ecole11/) -- yet another introductory tutorial, has some exercises.
 
 + [Coq Math Problems](https://coq-math-problems.github.io/) -- growing collection of "interesting, challenging, or fun math problems formalized in Coq"
