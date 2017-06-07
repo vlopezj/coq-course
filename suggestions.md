@@ -58,6 +58,10 @@
 
   - Abus de notation: Type classes/Canonical structures/Coercions/Unification hints/Mooooooonads
 
+    - TODO: Good documentation for this? Exercises?
+
   - Matthieu Sozeau's [Program](https://coq.inria.fr/refman/Reference-Manual027.html) tactics and [Equations](https://www.irif.fr/~sozeau/research/coq/equations.en.html) plugin
+
+    - TODO: Good documentation for this? Exercises?
 
   - See also the [links/books/references](README.md#reference-material) in the README
