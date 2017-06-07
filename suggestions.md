@@ -62,4 +62,4 @@
 
   - http://adam.chlipala.net/frap/
 
-  - See also the links/books/references in the README
+  - See also the [links/books/references](README.md#reference-material) in the README

@@ -4,7 +4,7 @@ Coq course at the Chalmers CSE department, in principle for PhD students.
 
 *Disclaimer:*
 - *This course is not guaranteed to take place. Times, contents and evaluation form are provisional and subject to change.*
-- *This course is planned as a self-reading course. As such, each person is individually responsible for fulfiling the goals set by the examiner. No assistance is provided beyond what other participants are willing and able to give.*
+- *This course is planned as a self-reading course. As such, each person is individually responsible for fulfilling the goals set by the examiner. No assistance is provided beyond what other participants are willing and able to give.*
 
 ## Dates
 
@@ -18,6 +18,7 @@ The course will take place during 2017 LP3 and LP4.
 - Session 6: *Wed* 12th Apr, 3:15-5pm, room *4128*. [Notes](/notes/session06.md)
 - Session 7: Thu 27th Apr, 3:15-5pm, room 6128. [Notes](/notes/session07.md)
 - Session 8: Thu 11th May, 3:15-5pm, room 6128. [Notes](/notes/session08.md)
+- Session 9: *Wed* 7th June, 3:15-5pm, room *4128*.
 
 ### Deliverables
 
@@ -54,7 +55,7 @@ From [Coq at nLab](https://ncatlab.org/nlab/show/Coq):
 
   CPDT uses Coq as a programming language with a rich type system.
 
-+ [Mathematical Components](https://math-comp.github.io/mcb/book.pdf) by Assia Mahboubi, Enrico Tassi with contributions by Yves Bertot and Georges Gonthier:
++ [Mathematical Components](https://math-comp.github.io/mcb/book.pdf) (MCB) by Assia Mahboubi, Enrico Tassi with contributions by Yves Bertot and Georges Gonthier:
 
   > This books targets two classes of public.  On one hand newcomers, even the
   > more mathematical inclined ones,  find a soft introduction to the programming
@@ -66,7 +67,7 @@ From [Coq at nLab](https://ncatlab.org/nlab/show/Coq):
   (natural and polynomial arithmetic, finite dimensional linear algebra,
   finite group theory, representations, ... + some finite graph theory).
 
-+ [Verified Functional Algorithms](https://www.cs.princeton.edu/~appel/vfa/) by Andrew W. Appel. "Volume 3 of the Software Foundations series".
++ [Verified Functional Algorithms](https://www.cs.princeton.edu/~appel/vfa/) (VFA) by Andrew W. Appel. "Volume 3 of the Software Foundations series".
 
 Comparison between [SF, CPDT and Coq’Art](http://lambda.jstolarek.com/2016/06/coqart-cpdt-and-sf-a-review-of-books-on-coq-proof-assistant/).
 
@@ -136,6 +137,7 @@ can use [riot's](http://riot.im) IRC bridge:
 + Marco Vassena
 + Simon Huber
 + João Pizani (visiting until 2017-04-07)
++ Youyou Cong (visiting until 2017-06-19)
 
 The course has started. If you still want to **take part**, you can *add your name to the list of participants* by [editing this file online][edit] and sending in a pull request. Be aware that you might have to work harder in the beginning in order to catch up.
 
