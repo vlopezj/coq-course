@@ -96,6 +96,8 @@ Comparison between [SF, CPDT and Coq’Art](http://lambda.jstolarek.com/2016/06/
 
 + [Modelling and verifying algorithms in Coq: an introduction](http://www.di.ens.fr/~zappa/teaching/coq/ecole11/), yet another introductory tutorial, has some exercises.
 
++ [Exercism.io](http://exercism.io/languages/coq/exercises) -- not so many here.
+
 ## Examination
 
 Examiner: [Thierry Coquand](http://www.cse.chalmers.se/~coquand/)
