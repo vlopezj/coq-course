@@ -36,12 +36,12 @@
 
     http://adam.chlipala.net/cpdt/cpdt.pdf#chapter.11
 
-  - Proofs about arithmetic
+  - Beyond PLT, handling traditional mathematics in Coq
 
-    Classical results:
-
-    - Irrationality of the square root of two ([Cocorico!](https://coq.inria.fr/cocorico/SquareRootTwo)).
-    - Infinitude of primes ([MCB](https://math-comp.github.io/mcb/book.pdf#page=112) [proof](https://math-comp.github.io/mcb/ch4.html)).
+    - Irrationality of the square root of two ([Cocorico!](https://coq.inria.fr/cocorico/SquareRootTwo))
+    - [GeoCoq](http://geocoq.github.io/GeoCoq/) - "A formalization of foundations of geometry in Coq"
+    - Elementary real analysis? Work in e.g. topology and related has been done in HOL Light at least.
+    - The Mathematical Components project? E.g. [infinitude of primes](https://math-comp.github.io/mcb/book.pdf#page=112) ([proof](https://math-comp.github.io/mcb/ch4.html)).
 
   - Program extraction
 
