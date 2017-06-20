@@ -125,7 +125,7 @@ Full participation in the course entails:
 
 How to claim credit for the course:
 
-1. Check that you fulfil the criteria for full participation. This is an honor system. In case of doubt, open an issue.
+1. Check that you fulfill the criteria for full participation. This is an honor system. In case of doubt, open an issue.
 2. TBA
 
 ## IRC channel
