@@ -20,6 +20,8 @@ The course took place during 2017 LP3 and LP4.
 - Session 8: Thu 11th May, 3:15-5pm, room 6128. [Notes](/notes/session08.md)
 - Final meeting: *Wed* 7th June, 3:15-5pm, room *4128*.
 
+During the couse, we covered inductive propositions (Víctor L.), the calculus of constructions (Simon R.), coinduction and codatatypes (Andreas L.), the AutoSubst library (Andrea V.), Ltac (Fabian R.) and proof by reflection/ssreflect (Daniel S.).
+
 ### Deliverables
 
 Coq files with solutions to the exercises. Deliverables are uploaded to a separate, [**private repository**](https://github.com/dschoepe/coq-course-exercises).
@@ -115,9 +117,16 @@ Examiner: [Thierry Coquand](http://www.cse.chalmers.se/~coquand/)
 
 Credits: 7.5, but the final decision about how many credits the course gives rests with each participant’s respective examiner.
 
-Full participation is required. This entails attending the meetings, doing the exercises and presenting some of them.
+Full participation in the course entails:
 
+- [ ] Attending a majority of the sessions.
+- [ ] Doing the exercises for each session, even those which you did not attend, and uploading your solutions to the exercise repo.
+- [ ] Presenting a topic of your choice during a session.
 
+How to claim credit for the course:
+
+1. Check that you fulfil the criteria for full participation. This is an honor system. In case of doubt, open an issue.
+2. TBA
 
 ## IRC channel
 
